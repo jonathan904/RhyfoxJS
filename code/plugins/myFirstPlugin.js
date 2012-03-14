@@ -11,8 +11,14 @@ function getBrokenLinks(url){
 	phantom.casperPath = pathAbsolute+'casperjs'; 
 	console.log("la ruta es "+phantom.casperPath);
 	phantom.injectJs(phantom.casperPath + '/bin/bootstrap.js');
-	var casper = require('casper').create();
-	casper.echo("La URL es: "+url);
+	var casper = require('casper').create({
+        logLevel: "info",
+        onError: function(self, m) {
+        console.log('FATAL:' + m);
+        self.exit();             
+    }
+    });
+	casper.echo("La URL es... "+url);
 	casper.start(url, function() {
 		this.echo("desde casper");
 		links = this.evaluate(getLinks);
