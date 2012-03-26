@@ -1,0 +1,7 @@
+/*
+* Archivo de configuracion inicial
+*/
+ var config={
+	"pluginsLocation"	:	'/plugins/',
+	"timeout"	:	'600000'
+}

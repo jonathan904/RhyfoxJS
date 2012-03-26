@@ -1,44 +1,29 @@
+/**
+*Plataforma.js (nombre provicional) es un sistema que permite 
+*integrar multiples plugins para el analisis de aplicaciones web.
+*	Repositorio: https://github.com/jonathan904/Proyecto-tesis-herramientas-web
+*	Copyright (c) 2012 Jonathand Alberto Serrano Serrano
+*
+*/
 var fs = require('fs');
-var a=''; 
-function recorrerObjet(o){ 
-    if(o.constructor==Array) 
-        a+='['; 
-    if(o.constructor==Object) 
-        a+='{'; 
-    for(var i in o){ 
-        if(o.constructor!=Array) 
-            a+=i+':'; 
-        if(o[i].constructor==Object){ 
-            recorrerObjet(o[i]); 
-        }else if(o[i].constructor==Array){ 
-            recorrerObjet(o[i]); 
-        }else if(o[i].constructor==String){ 
-            a+='"'+o[i]+'",'; 
-        }else{ 
-            a+=o[i]+','; 
-        } 
-             
-    } 
-    if(o.constructor==Object) 
-        a+='},'; 
-    if(o.constructor==Array) 
-        a+='],'; 
-    return a.substr(0,a.length-1).split(',}').join('}').split(',]').join(']'); 
-} 
+//Ruta central del proyecto
+var project_path=fs.workingDirectory;
+phantom.injectJs(project_path+'/bin/functions.js');
+var functions=new GeneralApi();
+functions.run();
 
-var pathPlugins=fs.workingDirectory+'/plugins/';
-if(fs.isDirectory(pathPlugins)){
-	var strPlugins=fs.list(pathPlugins);
-	var strPlugins2=recorrerObjet(strPlugins);
-	var arrPlugins=strPlugins2.split(',');
-	for(var i in arrPlugins){
-		if(i>1){
-			var nomPlugin=arrPlugins[i].replace(/"/gi,"");
-			var nomPlugin=nomPlugin.replace(/]/gi,"");
-			var pathPlugin=pathPlugins+nomPlugin;
-			phantom.injectJs(pathPlugin);
-		}
+/*
+**	Leemos los datos de configuracion.
+*/
+var config_path=project_path+'/config.json';
+functions.require_file(config_path);
+var plugins_path=project_path+config.pluginsLocation;
+if(functions.validar_directorio(plugins_path)){
+	if(functions.obtener_plugins()){
+		functions.ejecutar_plugins();
 	}
 }
-getBrokenLinks('http://www.colegioparroquialrincondesuba.edu.co/');
+
+//getBrokenLinks('http://www.colegioparroquialrincondesuba.edu.co/');*/
+//setTimeout("phantom.exit();",600000);
 phantom.exit();
