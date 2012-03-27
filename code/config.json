@@ -2,6 +2,8 @@
 * Archivo de configuracion inicial
 */
  var config={
-	"pluginsLocation"	:	'/plugins/',
-	"timeout"	:	'600000'
+	"pluginsPath"	:	'/plugins/',
+	"timeout"	:	'600000',
+	"includesPath"	:	'/includes/',
+	"casperPath"	:	'/includes/casperjs/'
 }

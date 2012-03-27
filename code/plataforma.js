@@ -10,20 +10,10 @@ var fs = require('fs');
 var project_path=fs.workingDirectory;
 phantom.injectJs(project_path+'/bin/functions.js');
 var functions=new GeneralApi();
-functions.run();
-
 /*
 **	Leemos los datos de configuracion.
 */
-var config_path=project_path+'/config.json';
-functions.require_file(config_path);
-var plugins_path=project_path+config.pluginsLocation;
-if(functions.validar_directorio(plugins_path)){
-	if(functions.obtener_plugins()){
-		functions.ejecutar_plugins();
-	}
-}
-
+functions.run();
 //getBrokenLinks('http://www.colegioparroquialrincondesuba.edu.co/');*/
 //setTimeout("phantom.exit();",600000);
 phantom.exit();
