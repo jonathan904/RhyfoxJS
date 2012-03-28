@@ -1,3 +1,4 @@
+
 var NoFound404Plugin=function(){
 	this.run=function(){
 		gapi.setNombrePlugin('NoFound404Plugin');

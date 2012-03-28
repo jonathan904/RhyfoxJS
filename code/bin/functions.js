@@ -3,6 +3,8 @@ function GeneralApi(){
 	//this.crear_archivo(this.logPath);
 	this.run=function(){
 		this.insertar_log("Api invocado.");
+		this.leerConfiguracion();
+		this.cargarPlugins();
 	}
 	this.require_file=function(filePath){
 		if(phantom.injectJs(filePath))this.insertar_log(filePath+" Archivo incluido con exito.");
@@ -30,7 +32,10 @@ function GeneralApi(){
 						this.insertar_log(plugin+" Archivo valido");
 						validPlugin=1;
 					}
-					else this.insertar_log(plugin+" Archivo inválido");
+					else{ 
+						this.plugins.splice(i,1);
+						this.insertar_log(plugin+" Archivo inválido");
+					}
 				}
 				if(validPlugin==1)return true;
 				else return false;
@@ -48,7 +53,15 @@ function GeneralApi(){
 		}	
 	}
 	this.ejecutar_plugins=function(){
-		console.log('En desarrollo');
+		//console.log('En desarrollo');
+		
+		for(i in this.plugins){
+			var fullPluginPath=this.pluginsPath+this.plugins[i];
+			console.log(fullPluginPath);
+			//se incluye el codigo del plugin
+			this.require_file(fullPluginPath);
+			//Se actualiza el estado del plugin 
+		}
 	}
 	this.insertar_log=function(log){
 		var timestamp=new Date();
@@ -57,5 +70,30 @@ function GeneralApi(){
 		var totalLog=timestamp+" "+log;
 		file.writeLine(totalLog); 
 		file.close();
+	}
+	this.iniciarCasperjs=function(){
+		
+	}
+	this.leerConfiguracion=function(){
+		this.config_path=this.currentPath+'/config.json';
+		console.log(this.config_path);
+		this.insertar_log("abriendo: "+this.config_path);
+		this.require_file(this.config_path);
+		this.insertar_log(this.config_path+" Cargando parametros de configuración...");
+		this.pluginsPath=this.currentPath+config.pluginsPath;
+		this.includesPath=this.currentPath+config.includesPath;
+		this.casperPath=this.currentPath+config.casperPath;
+		this.timeOut=this.currentPath+config.timeout;
+		this.insertar_log("Parametros de  configuración cargados.");
+	}
+	this.cargarPlugins=function(){
+		if(this.validar_directorio(this.pluginsPath)){
+			if(this.obtener_plugins()){
+				this.ejecutar_plugins();
+			}
+		}
+	}
+	this.obtenerDatosPlugin=function(jsonPlugin){
+		this.pluginProperties.push(nombrePlugin);
 	}
 }
