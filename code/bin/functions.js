@@ -2,6 +2,7 @@ function GeneralApi(){
 	this.currentPath=fs.workingDirectory;
 	//this.crear_archivo(this.logPath);
 	this.run=function(){
+		this.require_file(this.currentPath+'/bin/pluginConfig.js');
 		this.insertar_log("Api invocado.");
 		this.leerConfiguracion();
 		this.cargarPlugins();
@@ -60,7 +61,10 @@ function GeneralApi(){
 			console.log(fullPluginPath);
 			//se incluye el codigo del plugin
 			this.require_file(fullPluginPath);
-			//Se actualiza el estado del plugin 
+			var pluginName=PluginConfig.name;
+			var strStarPlugin=" var newObject= new "+pluginName+"()";
+			eval(strStarPlugin);
+			newObject.run();	
 		}
 	}
 	this.insertar_log=function(log){
