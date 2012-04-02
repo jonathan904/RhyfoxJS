@@ -3,7 +3,7 @@
 */
  var config={
 	"pluginsPath"	:	'/plugins/',
-	"timeout"	:	'600000',
+	"timeout"		:	'10000',
 	"includesPath"	:	'/includes/',
 	"casperPath"	:	'/includes/casperjs/'
 }

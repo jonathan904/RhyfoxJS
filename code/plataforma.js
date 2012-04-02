@@ -16,4 +16,4 @@ var functions=new GeneralApi();
 functions.run();
 //getBrokenLinks('http://www.colegioparroquialrincondesuba.edu.co/');*/
 //setTimeout("phantom.exit();",600000);
-phantom.exit();
+
