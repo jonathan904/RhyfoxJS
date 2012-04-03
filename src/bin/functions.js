@@ -2,22 +2,25 @@ function GeneralApi(){
 	this.currentPath=fs.workingDirectory;
 	//this.crear_archivo(this.logPath);
 	this.run=function(){
-		this.require_file(this.currentPath+'/bin/PluginsConfig.js');//Esta es la ruta de un archivo que contiene informacion de cada uno de los plugins.
-		this.insertar_log("Api invocado.");
+		var pluginConfigPath=this.currentPath+'/bin/PluginsConfig.js';
+		this.require_file(pluginConfigPath);//Esta es la ruta de un archivo que contiene informacion de cada uno de los plugins.
+		this.insertar_log('Api invocado.','info');
 		this.leerConfiguracion();
-		this.cargarPlugins(PluginsConfig);
+		//this.cargarPlugins(PluginsConfig);
 	}
 	this.require_file=function(filePath){
-		if(phantom.injectJs(filePath))this.insertar_log(filePath+" Archivo incluido con exito.");
-		else this.insertar_log(filePath+" No es un directorio valido.");
+		if(phantom.injectJs(filePath))
+			this.insertar_log(filePath+' Archivo incluido con exito.','info');
+		else 
+			this.insertar_log(filePath+" No es un directorio valido.",'debug');
 	}
 	 this.validar_directorio=function(directoryPath){
 		if(fs.isDirectory(directoryPath)){
 			this.directory=directoryPath;
-			this.insertar_log(this.directory+" Es un directorio valido.");
+			this.insertar_log(this.directory+" Es un directorio valido.",'debug');
 			return true;
 		}
-		else this.insertar_log(this.directory+" No es un directorio valido.");
+		else this.insertar_log(this.directory+" No es un directorio valido.",'debug');
 		return false;
 	}
 	this.obtener_plugins=function(){
@@ -43,7 +46,7 @@ function GeneralApi(){
 			}
 			else{ 
 				console.log('No hay Plugins disponibles');
-				this.insertar_log(this.directory+" No hay Plugins disponibles.");
+				this.insertar_log(this.directory+" No hay Plugins disponibles.", 'error');
 				return false;
 			}	
 		}
@@ -67,6 +70,8 @@ function GeneralApi(){
 			var pluginName=objConfigPlugin.name;
 			eval("var newPlugin="+pluginName+";");
 			var newObject= new newPlugin(objConfigPlugin);
+			// aqui se necesita apiPublic
+			newObject.api=new PlubicAPI();
 			newObject.run();
 			console.log(objConfigPlugin.estado);
 			this.pluginEvaluator(objConfigPlugin);
@@ -83,28 +88,33 @@ function GeneralApi(){
 			newObject.run();	
 		}*/
 	}
-	this.insertar_log=function(log){
+	this.insertar_log=function(log,nivel){
 		var timestamp=new Date();
-		var path=this.currentPath+"/bin/sysLog.log";
+		var path=this.currentPath+"/../logs/sysLog.log";
+		if(!fs.exists(path)){
+			fs.touch(path);
+		}
 		var file=fs.open(path,'a');
-		var totalLog=timestamp+" "+log;
+		var totalLog=nivel+":	"+timestamp+" "+log;
 		file.writeLine(totalLog); 
 		file.close();
+		
 	}
 	this.iniciarCasperjs=function(){
 		
 	}
 	this.leerConfiguracion=function(){
-		this.config_path=this.currentPath+'/config.json';
-		console.log(this.config_path);
-		this.insertar_log("abriendo: "+this.config_path);
-		this.require_file(this.config_path);
-		this.insertar_log(this.config_path+" Cargando parametros de configuración...");
-		this.pluginsPath=this.currentPath+config.pluginsPath;
-		this.includesPath=this.currentPath+config.includesPath;
-		this.casperPath=this.currentPath+config.casperPath;
-		this.timeOut=this.currentPath+config.timeout;
-		this.insertar_log("Parametros de  configuración cargados.");
+		this.config_path=this.currentPath+'/../config.json';
+		this.insertar_log("abriendo: "+this.config_path,'info');
+		var absolute=fs.absolute(this.config_path);
+		this.require_file(absolute);
+		this.insertar_log(this.config_path+" Cargando parametros de configuración...",'info');
+		this.pluginsPath=config.paths.pluginsPath;
+		this.includesPath=config.paths.includesPath;
+		this.casperPath=config.paths.casperPath;
+		console.log(this.pluginsPath);
+		this.timeOut=config.timeout;
+		this.insertar_log("Parametros de  configuración cargados.",'info');
 	}
 	this.cargarPlugins=function(config){
 		if(this.validar_directorio(this.pluginsPath)){

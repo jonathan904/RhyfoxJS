@@ -2,8 +2,14 @@
 * Archivo de configuracion inicial
 */
  var config={
-	"pluginsPath"	:	'/plugins/',
-	"timeout"		:	'10000',
-	"includesPath"	:	'/includes/',
-	"casperPath"	:	'/includes/casperjs/'
+	timeout		:	'10000',
+	loggger: {
+		level: 'debug',
+		output: true
+	},
+	paths:	{
+		pluginsPath		:	'D:/Escritorio/Tesis/software/plugins',
+		includesPath	:	'D:/Escritorio/Tesis/software/includes',
+		casperPath		:	'D:/Escritorio/Tesis/software/includes/casperjs'		
+	}
 }

@@ -8,12 +8,10 @@
 var fs = require('fs');
 //Ruta central del proyecto
 var project_path=fs.workingDirectory;
-phantom.injectJs(project_path+'/bin/functions.js');
+var mainPath=project_path+'/bin/functions.js';
+phantom.injectJs(mainPath);
 var functions=new GeneralApi();
-/*
-**	Leemos los datos de configuracion.
-*/
 functions.run();
 //getBrokenLinks('http://www.colegioparroquialrincondesuba.edu.co/');*/
 //setTimeout("phantom.exit();",600000);
-
+phantom.exit();
