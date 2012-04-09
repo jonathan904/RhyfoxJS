@@ -79,7 +79,7 @@ function Main(){
 			if(index<this.plugins.length){ 	
 				switch(state){
 					case 'stop':
-						this.insertLog('plugin :'+this.plugins[index].name+'...started');
+						this.insertLog('plugin :'+this.plugins[index].name+'...started','debug');
 						this.plugins[this.indexPlugin].state='start';
 						this.loadPlugin();
 						console.log('caso stop');
