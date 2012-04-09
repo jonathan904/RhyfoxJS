@@ -4,9 +4,10 @@
 *Esta clase sera que se utilizen los plugins para comunicarsen con la plataforma.
 *Esta clase ofrecera ya las algunos componentes funamentales como CasperJS.
 */
-function PublicAPI(){
-	console.log(project_path);
-	this.getCasperJs=function(){
+function PublicAPI(objPlugin){
+	this.objPlugin=objPlugin;
+	//console.log(project_path);
+	/*this.getCasperJs=function(){
 		var casper = require('casper').create({
 			httpStatusHandlers: {
 				404: function(self, resource) {
@@ -19,6 +20,10 @@ function PublicAPI(){
 			verbose: true
 		});
 		return casper;
+	}*/
+	this.statePlugin=function(state){
+		console.log('recibido estado: '+state);
+		this.objPlugin.state=state;
 	}
 	
 }

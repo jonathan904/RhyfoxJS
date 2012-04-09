@@ -1,18 +1,21 @@
-function NoFound404Plugin(pluginConfig){
-	this.pluginConfig=pluginConfig;
+function NoFound404Plugin(){
+	//this.pluginConfig=pluginConfig;
 	this.run=function(){
 		//functions.prototype.nombrePlugin='NoFound404Plugin';
-		var urls=this.pluginConfig['Urls'];
-		for (i in urls){
+		//var urls=this.pluginConfig['Urls'];
+		/*for (i in urls){
 			console.log(i +"=>"+urls[i]);
 		}
 		this.end();
-		var api=new PlubicAPI();
-		var casper=api.getCasperJs();
-		this.getBrokenLinks(urls[0]);
+		var casper= this.api.getCasperJs();
+		this.getBrokenLinks(urls[0]);*/
+		console.log("Plugin1");
+		setTimeout("this.end()",15000);
 	}
 	this.end=function(){
-		return  this.pluginConfig.estado="Finalizado";
+		console.log('ya acabe');
+		this.api.statePlugin('finish');
+		
 	}	
 	this.getLinks=function() {
 		var links = document.querySelectorAll('body a,body img');
