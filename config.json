@@ -4,7 +4,7 @@
  var config={
 	timeout		:	'10000',
 	loggger: {
-		level: 'debug',
+		level: 'warning',
 		output: true
 	},
 	paths:	{
