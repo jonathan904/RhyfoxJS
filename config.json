@@ -2,14 +2,14 @@
 * Archivo de configuracion inicial
 */
  var config={
-	timeout		:	'10000',
+	timeout		:	'1000',
 	loggger: {
-		level: 'warning',
+		level: 'info',
 		output: true
 	},
 	paths:	{
-		pluginsPath		:	'D:/Escritorio/Tesis/software/plugins',
-		includesPath	:	'D:/Escritorio/Tesis/software/includes',
-		casperPath		:	'D:/Escritorio/Tesis/software/includes/casperjs'		
+		pluginsPath		:	'C:/Users/Jonathand/My Documents/Aptana Studio 3 Workspace/RhyfoxJS/plugins',
+		includesPath	:	'C:/Users/Jonathand/My Documents/Aptana Studio 3 Workspace/RhyfoxJS/plugins/includes',
+		casperPath		:	'C:/Users/Jonathand/My Documents/Aptana Studio 3 Workspace/RhyfoxJS/plugins/includescasperjs'		
 	}
 }
