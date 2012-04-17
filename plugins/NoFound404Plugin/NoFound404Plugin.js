@@ -1,5 +1,6 @@
 function NoFound404Plugin(){
     var instance = this;
+    this.currentPath=fs.workingDirectory;
 	//this.pluginConfig=pluginConfig;
 	this.run=function(){
 		//functions.prototype.nombrePlugin='NoFound404Plugin';
@@ -8,28 +9,23 @@ function NoFound404Plugin(){
 			console.log(i +"=>"+urls[i]);
 		}
 		this.end();
-		var casper= this.api.getCasperJs();
 		this.getBrokenLinks(urls[0]);*/
+		this.api.objLogger.insertLog('path===================='+this.api.currentPath,'info');
+		var links=this.api.getLinks('http://www.colegioparroquialrincondesuba.edu.co/');
+		//console.log('////////////////////////'+typeof links);
+		/*foreach(var i in links){
+			console.log(links[i]);
+		}*/
+		//var casper= this.api.getCasperJs();
 		console.log("Plugin1");
 		setTimeout(this.end,5000);
-		//this.end();
+		
 	}
 	this.end=function(){
 	  instance.api.finishPlugin();
 	  //instance.api.statePlugin("finish") 
 	  
 	}
-	this.getLinks=function() {
-		var links = document.querySelectorAll('body a,body img');
-		return Array.prototype.map.call(links, function(e) {
-		var hrefs=e.getAttribute('href');
-			var srcs=e.getAttribute('src');
-			var arrGeneral=[];
-			arrGeneral.push(hrefs,srcs);				
-			return arrGeneral;
-		});
-	}
-	
 	this.dump=function(arr,level) {
 		var dumped_text = "";
 		if(!level) level = 0;
@@ -57,11 +53,7 @@ function NoFound404Plugin(){
 	
 	this.getBrokenLinks=function(url){
 		var links=[];
-		var fs = require('fs');
-		var pathAbsolute=this.currentPath +'/includes/';
-		phantom.casperPath = pathAbsolute+'casperjs'; 
-		phantom.injectJs(phantom.casperPath + '/bin/bootstrap.js');
-		var casper = require('casper').create();
+		var casper = this.api.getCasperJs();
 		casper.start(url, function() {
 			links = this.evaluate(getLinks);
 			page = new WebPage();

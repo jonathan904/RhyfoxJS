@@ -8,7 +8,7 @@ function RhyfoxJS(){
 	this.currentPath=fs.workingDirectory;
 	this.indexPlugin=0;
 	this.run=function(){//main method
-		this.logger.insertLog('Api started','info');
+		this.logger.insertLog('RhyfoxJS started','info');
 		this.readConfig();
 		this.readPluginsPath();
 		this.runPlugins();
@@ -17,7 +17,7 @@ function RhyfoxJS(){
 	* Read the plugin path and create the list plugins as plugins object
 	*/
 	this.readPluginsPath=function(){ 
-		this.logger.insertLog('readPluginsPath function called!','info');
+		this.logger.insertLog('readPluginsPath function called!','debug');
 		var plugins=fs.list(this.pluginsPath);
 		this.logger.insertLog('List the plugins of directory: '+this.pluginsPath,'info');
 		this.plugins=[];
@@ -53,33 +53,44 @@ function RhyfoxJS(){
 		else this.logger.insertLog('Plugins files no found! '+this.pluginsPath,'error');
 		
 	}
+	/**
+	 *  This function allow include files 
+	 */
 	this.requireFile=function(filePath){
 		if(phantom.injectJs(filePath))
 			this.logger.insertLog(filePath+' File included succesfully!','info');
 		else 
 			this.logger.insertLog(filePath+" File invalid!",'error');
 	}
+	/**
+	 * This function valid if the path is a directory valid
+	 */
 	this.isDirectory=function(directoryPath){
 		if(fs.isDirectory(directoryPath)){
 			this.directory=directoryPath;
 			this.logger.insertLog(this.directory+" Directory is valid.",'debug');
 			return true;
 		}
-		else this.logger.insertLog(this.directory+" Directory invalid.",'debug');
+		else this.logger.insertLog(this.directory+" Directory invalid.",'error');
 		return false;
 	}
+	/**
+	 * This function runs the plugins of plugins folder
+	 */
 	this.runPlugins=function(){
-		this.logger.insertLog('runPlugins function called!','info');
+		this.logger.insertLog('runPlugins function called!','debug');
 		
 		if(this.plugins.length>0 && this.indexPlugin<this.plugins.length){
-			this.logger.insertLog('Plugins found!','debug');
+			this.logger.insertLog('Plugins found:		'+this.plugins.length,'debug');
 			
 			var state = this.plugins[this.indexPlugin].state;
-			console.log('indice--->		'+this.indexPlugin);
-			console.log('estado--->		'+state);
-			console.log('tamano--->		'+this.plugins.length);
-			console.log('Plugin Found');
-			this.logger.insertLog('Current plugin: '+this.plugins[this.indexPlugin].name+', state: '+state,'debug');
+			
+			this.logger.insertLog('Plugin Found!','debug');
+			this.logger.insertLog('Current plugin: 		'+this.plugins[this.indexPlugin].name,'debug');
+			this.logger.insertLog('plugin index:		'+this.indexPlugin,'debug');
+			this.logger.insertLog('plugin state:		'+state,'debug');
+			this.logger.insertLog('plugin path:			'+this.plugins[this.indexPlugin].pluginPath,'debug');
+						
 			
 			if(state != 'start'){
 				if(state == 'finish') 
@@ -88,65 +99,35 @@ function RhyfoxJS(){
 				this.execute();
 				
 			}
-			console.log('caso--->    '+state);
-			
 			//Are there more plugins?
 			setTimeout(function() { instance.runPlugins() } ,this.timeOut);
 			
-		}else { this.logger.insertLog("Plugins no found",'debug'); phantom.exit();}
+		}else { this.logger.insertLog("Plugins no found",'debug'); this.exit();}
 	}
 	this.execute=function() {
-		this.logger.insertLog('execute function called!'+this.indexPlugin+this.plugins.length,'info');
+		this.logger.insertLog('execute function called!','debug');
 		
 		if(this.indexPlugin<this.plugins.length){ 	
 			this.plugins[this.indexPlugin].state='start';
 			var pluginPath=this.plugins[this.indexPlugin].pluginPath;
-			console.log('pluginPath--->		'+pluginPath);
 			this.requireFile(pluginPath);
 			this.requireFile(this.currentPath+'/bin/PublicAPI.js');
 			eval("var Plugin="+this.plugins[this.indexPlugin].name+";");
-			console.log('estado--->		'+this.plugins[this.indexPlugin].state);
 			var newPlugin= new Plugin();
-			newPlugin.api=new PublicAPI(this.plugins[this.indexPlugin],this.logger);
+			newPlugin.api=new PublicAPI(this.plugins[this.indexPlugin],this.logger,phantom);
 			newPlugin.run();
-			console.log('estadoDesdeLoad--->		'+this.plugins[this.indexPlugin].state);
-			//this.logger.insertLog('plugin :'+this.plugins[this.indexPlugin].name+'...started','debug');				
-					
-			//var ini=this.runPlugins();
-			//var _self=this;
 		}
 		
 	}
-	/*this.logger.insertLog=function(msg,level){
-		
-		level = level && this.logLevels.indexOf(level) > -1 ? level : "debug";
-		
-		if (this.logLevels.indexOf(level) < this.logLevels.indexOf(this.logger.level)) {
-			// skip ;)
-		}
-		else{
-			var timestamp=new Date();
-			var logPath=this.currentPath+"/../logs/sysLog.log";
-			if(!fs.exists(logPath)){
-				fs.touch(logPath);
-			}
-			var file=fs.open(logPath,'a');
-			var log=level+":	"+timestamp+" "+msg;
-			file.writeLine(log); 
-			file.close();
-			console.log(log);
-		}
-	
-	}*/
-	this.readConfig=function(){
-		this.logger.insertLog('readConfig function called!','info');
+	this.readConfig=function(){//config file: config.js the RhyfoxJS 
+		this.logger.insertLog('readConfig function called!','debug');
 		this.config_path=this.currentPath+'/../config.json';//Config global file
 		var abstConfigPath=fs.absolute(this.config_path);
 		this.logger.insertLog('Loading: '+this.config_path,'info');
 		this.requireFile(abstConfigPath);
 		this.logger.insertLog(this.config_path+' Loading configuration parameters ...','info');
 		this.pluginsPath=config.paths.pluginsPath;
-		this.logger.insertLog('Plugins path loaded!','info');
+		this.logger.insertLog(this.pluginsPath+' Plugins path loaded!','info');
 		this.logger.config=config.loggger;
 		this.logger.insertLog('Logger options loaded!','info');
 		this.logger.insertLog('Log levels loaded!','info');
@@ -158,7 +139,9 @@ function RhyfoxJS(){
 		this.logger.insertLog('Timeout parameter loaded!','info');
 		this.logger.insertLog('Configuration parameters loaded!','info');
 	}
-	this.pluginExit=function(){//exit the plataforma.js
+	this.exit=function(){//exit the RhyfoxJS.js
+		this.logger.insertLog('pluginExit function called!','debug');
+		this.logger.insertLog('Exits RhyfoxJS ','debug');
 		phantom.exit();
 	}
 }
