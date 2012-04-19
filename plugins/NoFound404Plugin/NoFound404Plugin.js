@@ -18,7 +18,7 @@ function NoFound404Plugin(){
 		}*/
 		//var casper= this.api.getCasperJs();
 		console.log("Plugin1");
-		setTimeout(this.end,5000);
+		//setTimeout(this.end,5000);
 		
 	}
 	this.end=function(){
