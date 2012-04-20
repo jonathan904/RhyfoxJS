@@ -8,7 +8,9 @@ function PublicAPI(objPlugin,objLogger){
 	this.objPlugin=objPlugin;
 	this.objLogger=objLogger;
 	this.currentPath=fs.workingDirectory;
+	this.estadoLinks=-1;
 	instance=this;
+	this.genLinks=[];
 	//this.requireFileA(this.currentPath+'/bin/Logger.js');
 	//console.log(project_path);
 	
@@ -49,7 +51,7 @@ function PublicAPI(objPlugin,objLogger){
 	this.getLinks=function(url) {
 		var page = require('webpage').create(),
 	    url = 'http://www.colegioparroquialrincondesuba.edu.co/';
-	
+	    this.estadoLinks=0;
 		page.open(url, function (status) {
 		    if (status !== 'success') {
 		        this.objLogger.insertLog('Unable to access network','info');
@@ -69,50 +71,27 @@ function PublicAPI(objPlugin,objLogger){
 		            }
 		            return links;
 		        });
-		        
-		        console.log('tamano++++++++++++++++++'+results.length);
-		        console.log(results.join('\n'));
-		        /*for (var i in results) {
-		        	console.log('tipo link actual: '+typeof results[i]);
-				  	if(typeof results[i]=="object"){
-		        		for (var j in results[i]) {
-							console.log('link%%%%%%%%%%%%%: '+results[i][j]);
-						}
-		        			
-		        	}
-		          }*/
-				
-		        	
+		        this.genLinks=results;
+		        //console.log('tamano++++++++++++++++++'+results.length);
+		        console.log(this.genLinks.join('\n'));
+		        this.estadoLinks=1;
 		        
 		    }
-		    //phantom.exit();
+		    
 		    instance.finishPlugin();
+		    
 		});
+		//console.log('Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa');
+		//return totalLinks;
 		
-		/*this.objLogger.insertLog('getLinks function called!','info');
-		var links=[];
-		var casper=this.getCasperJs();
-		casper.start(url, function() {
-    		links= this.evaluate(function(){
-    			var links = document.querySelectorAll('body a');
-				return Array.prototype.map.call(links, function(e) {
-					return e.getAttribute('href');
-				});	
-    		});
-    		
-		});
-		return links;*/
 		
-		/*casper.start('http://www.google.fr/', function() {
-    		this.echo('Page title is: ' + this.evaluate(function() {
-        		return document.title;
-    		}), 'INFO'); // Will be printed in green on the console
-    		
-		});
-		casper.run(function() {
-		    //this.echo(links.length + ' links found:');
-		    //this.echo(' - ' + links.join('\n - ')).exit();
-		    this.exit();
-		});*/
 	}
+	this.getLinks2=function(url){
+		if(this.estadoLinks!=0){
+			if(this.estadoLinks==1)return this.genLinks;
+			this.getLinks(url);
+		}
+		setTimeout(function() { instance.getLinks2() },2000);
+	}
+	
 }
