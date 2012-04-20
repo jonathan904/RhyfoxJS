@@ -49,8 +49,7 @@ function PublicAPI(objPlugin,objLogger){
 			this.objLogger.insertLog(filePath+" File invalid!",'error');
 	}
 	this.getLinks=function(url) {
-		var page = require('webpage').create(),
-	    url = 'http://www.colegioparroquialrincondesuba.edu.co/';
+		var page = require('webpage').create();
 	    this.estadoLinks=0;
 		page.open(url, function (status) {
 		    if (status !== 'success') {
