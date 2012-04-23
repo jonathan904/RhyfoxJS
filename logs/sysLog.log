@@ -5233,3 +5233,339 @@ info:	Mon Apr 16 2012 20:36:58 Plugin file found!: C:\Users\Jonathand\My Documen
 info:	Mon Apr 16 2012 20:36:58 Config plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json
 info:	Mon Apr 16 2012 20:36:58 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/NoFound404Plugin.js File included succesfully!
 info:	Mon Apr 16 2012 20:36:58 C:/Users/Jonathand/My Documents/Aptana Studio 3 Workspace/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Sun Apr 21 2012 12:39:41 RhyfoxJS started
+debug:	Sun Apr 21 2012 12:39:41 readConfig function called!
+info:	Sun Apr 21 2012 12:39:41 Loading: C:/Users/Jonathand/Tesis/RhyfoxJS/src/../config.json
+info:	Sun Apr 21 2012 12:39:41 C:/Users/Jonathand/Tesis/RhyfoxJS/config.json File included succesfully!
+info:	Sun Apr 21 2012 12:39:41 C:/Users/Jonathand/Tesis/RhyfoxJS/src/../config.json Loading configuration parameters ...
+info:	Sun Apr 21 2012 12:39:41 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins Plugins path loaded!
+info:	Sun Apr 21 2012 12:39:41 Logger options loaded!
+info:	Sun Apr 21 2012 12:39:41 Log levels loaded!
+info:	Sun Apr 21 2012 12:39:41 Includes path loaded!
+info:	Sun Apr 21 2012 12:39:41 CasperJS path loaded!
+info:	Sun Apr 21 2012 12:39:41 Timeout parameter loaded!
+info:	Sun Apr 21 2012 12:39:41 Configuration parameters loaded!
+info:	Sun Apr 21 2012 12:39:41 List the plugins of directory: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins
+info:	Sun Apr 21 2012 12:39:41 Scanning directory:C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/
+info:	Sun Apr 21 2012 12:39:41 Directory valid: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/
+info:	Sun Apr 21 2012 12:39:41 Plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/NoFound404Plugin.js
+info:	Sun Apr 21 2012 12:39:41 Config plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/config_NoFound404Plugin.json
+info:	Sun Apr 21 2012 12:39:41 Scanning directory:C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/
+info:	Sun Apr 21 2012 12:39:41 Directory valid: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/
+info:	Sun Apr 21 2012 12:39:41 Plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js
+info:	Sun Apr 21 2012 12:39:41 Config plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json
+info:	Sun Apr 21 2012 12:39:41 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/NoFound404Plugin.js File included succesfully!
+info:	Sun Apr 21 2012 12:39:41 C:/Users/Jonathand/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Sun Apr 21 2012 12:39:41 path====================C:/Users/Jonathand/Tesis/RhyfoxJS/src
+info:	Sun Apr 21 2012 12:44:39 plugin: NoFound404Plugin state: finish 
+info:	Sun Apr 21 2012 12:45:55 RhyfoxJS started
+debug:	Sun Apr 21 2012 12:45:55 readConfig function called!
+info:	Sun Apr 21 2012 12:45:55 Loading: C:/Users/Jonathand/Tesis/RhyfoxJS/src/../config.json
+info:	Sun Apr 21 2012 12:45:55 C:/Users/Jonathand/Tesis/RhyfoxJS/config.json File included succesfully!
+info:	Sun Apr 21 2012 12:45:55 C:/Users/Jonathand/Tesis/RhyfoxJS/src/../config.json Loading configuration parameters ...
+info:	Sun Apr 21 2012 12:45:55 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins Plugins path loaded!
+info:	Sun Apr 21 2012 12:45:55 Logger options loaded!
+info:	Sun Apr 21 2012 12:45:55 Log levels loaded!
+info:	Sun Apr 21 2012 12:45:55 Includes path loaded!
+info:	Sun Apr 21 2012 12:45:55 CasperJS path loaded!
+info:	Sun Apr 21 2012 12:45:55 Timeout parameter loaded!
+info:	Sun Apr 21 2012 12:45:55 Configuration parameters loaded!
+info:	Sun Apr 21 2012 12:45:55 List the plugins of directory: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins
+info:	Sun Apr 21 2012 12:45:55 Scanning directory:C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/
+info:	Sun Apr 21 2012 12:45:55 Directory valid: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/
+info:	Sun Apr 21 2012 12:45:55 Plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/NoFound404Plugin.js
+info:	Sun Apr 21 2012 12:45:55 Config plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/config_NoFound404Plugin.json
+info:	Sun Apr 21 2012 12:45:55 Scanning directory:C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/
+info:	Sun Apr 21 2012 12:45:55 Directory valid: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/
+info:	Sun Apr 21 2012 12:45:55 Plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js
+info:	Sun Apr 21 2012 12:45:55 Config plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json
+info:	Sun Apr 21 2012 12:45:55 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/NoFound404Plugin.js File included succesfully!
+info:	Sun Apr 21 2012 12:45:55 C:/Users/Jonathand/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Sun Apr 21 2012 12:46:25 RhyfoxJS started
+debug:	Sun Apr 21 2012 12:46:25 readConfig function called!
+info:	Sun Apr 21 2012 12:46:25 Loading: C:/Users/Jonathand/Tesis/RhyfoxJS/src/../config.json
+info:	Sun Apr 21 2012 12:46:25 C:/Users/Jonathand/Tesis/RhyfoxJS/config.json File included succesfully!
+info:	Sun Apr 21 2012 12:46:25 C:/Users/Jonathand/Tesis/RhyfoxJS/src/../config.json Loading configuration parameters ...
+info:	Sun Apr 21 2012 12:46:25 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins Plugins path loaded!
+info:	Sun Apr 21 2012 12:46:25 Logger options loaded!
+info:	Sun Apr 21 2012 12:46:25 Log levels loaded!
+info:	Sun Apr 21 2012 12:46:25 Includes path loaded!
+info:	Sun Apr 21 2012 12:46:25 CasperJS path loaded!
+info:	Sun Apr 21 2012 12:46:25 Timeout parameter loaded!
+info:	Sun Apr 21 2012 12:46:25 Configuration parameters loaded!
+info:	Sun Apr 21 2012 12:46:25 List the plugins of directory: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins
+info:	Sun Apr 21 2012 12:46:25 Scanning directory:C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/
+info:	Sun Apr 21 2012 12:46:25 Directory valid: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/
+info:	Sun Apr 21 2012 12:46:25 Plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/NoFound404Plugin.js
+info:	Sun Apr 21 2012 12:46:25 Config plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/config_NoFound404Plugin.json
+info:	Sun Apr 21 2012 12:46:25 Scanning directory:C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/
+info:	Sun Apr 21 2012 12:46:25 Directory valid: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/
+info:	Sun Apr 21 2012 12:46:25 Plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js
+info:	Sun Apr 21 2012 12:46:25 Config plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json
+info:	Sun Apr 21 2012 12:46:26 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/NoFound404Plugin.js File included succesfully!
+info:	Sun Apr 21 2012 12:46:26 C:/Users/Jonathand/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Sun Apr 21 2012 12:46:26 path====================C:/Users/Jonathand/Tesis/RhyfoxJS/src
+info:	Sun Apr 21 2012 12:50:48 plugin: NoFound404Plugin state: finish 
+info:	Sun Apr 21 2012 12:50:48 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js File included succesfully!
+info:	Sun Apr 21 2012 12:50:48 C:/Users/Jonathand/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Sun Apr 21 2012 12:50:48 plugin: TiempoEjecucionPlugin state: finish 
+info:	Sun Apr 21 2012 12:51:56 RhyfoxJS started
+debug:	Sun Apr 21 2012 12:51:56 readConfig function called!
+info:	Sun Apr 21 2012 12:51:56 Loading: C:/Users/Jonathand/Tesis/RhyfoxJS/src/../config.json
+info:	Sun Apr 21 2012 12:51:56 C:/Users/Jonathand/Tesis/RhyfoxJS/config.json File included succesfully!
+info:	Sun Apr 21 2012 12:51:56 C:/Users/Jonathand/Tesis/RhyfoxJS/src/../config.json Loading configuration parameters ...
+info:	Sun Apr 21 2012 12:51:56 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins Plugins path loaded!
+info:	Sun Apr 21 2012 12:51:56 Logger options loaded!
+info:	Sun Apr 21 2012 12:51:56 Log levels loaded!
+info:	Sun Apr 21 2012 12:51:56 Includes path loaded!
+info:	Sun Apr 21 2012 12:51:56 CasperJS path loaded!
+info:	Sun Apr 21 2012 12:51:56 Timeout parameter loaded!
+info:	Sun Apr 21 2012 12:51:56 Configuration parameters loaded!
+info:	Sun Apr 21 2012 12:51:56 List the plugins of directory: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins
+info:	Sun Apr 21 2012 12:51:56 Scanning directory:C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/
+info:	Sun Apr 21 2012 12:51:56 Directory valid: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/
+info:	Sun Apr 21 2012 12:51:56 Plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/NoFound404Plugin.js
+info:	Sun Apr 21 2012 12:51:56 Config plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/config_NoFound404Plugin.json
+info:	Sun Apr 21 2012 12:51:56 Scanning directory:C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/
+info:	Sun Apr 21 2012 12:51:56 Directory valid: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/
+info:	Sun Apr 21 2012 12:51:56 Plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js
+info:	Sun Apr 21 2012 12:51:56 Config plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json
+info:	Sun Apr 21 2012 12:51:56 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/NoFound404Plugin.js File included succesfully!
+info:	Sun Apr 21 2012 12:51:56 C:/Users/Jonathand/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Sun Apr 21 2012 12:51:56 path====================C:/Users/Jonathand/Tesis/RhyfoxJS/src
+info:	Sun Apr 21 2012 12:54:21 plugin: NoFound404Plugin state: finish 
+info:	Sun Apr 21 2012 12:54:22 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js File included succesfully!
+info:	Sun Apr 21 2012 12:54:22 C:/Users/Jonathand/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Sun Apr 21 2012 12:54:22 plugin: TiempoEjecucionPlugin state: finish 
+info:	Sun Apr 21 2012 12:58:32 RhyfoxJS started
+debug:	Sun Apr 21 2012 12:58:32 readConfig function called!
+info:	Sun Apr 21 2012 12:58:32 Loading: C:/Users/Jonathand/Tesis/RhyfoxJS/src/../config.json
+info:	Sun Apr 21 2012 12:58:32 C:/Users/Jonathand/Tesis/RhyfoxJS/config.json File included succesfully!
+info:	Sun Apr 21 2012 12:58:32 C:/Users/Jonathand/Tesis/RhyfoxJS/src/../config.json Loading configuration parameters ...
+info:	Sun Apr 21 2012 12:58:32 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins Plugins path loaded!
+info:	Sun Apr 21 2012 12:58:32 Logger options loaded!
+info:	Sun Apr 21 2012 12:58:32 Log levels loaded!
+info:	Sun Apr 21 2012 12:58:32 Includes path loaded!
+info:	Sun Apr 21 2012 12:58:32 CasperJS path loaded!
+info:	Sun Apr 21 2012 12:58:32 Timeout parameter loaded!
+info:	Sun Apr 21 2012 12:58:32 Configuration parameters loaded!
+info:	Sun Apr 21 2012 12:58:32 List the plugins of directory: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins
+info:	Sun Apr 21 2012 12:58:32 Scanning directory:C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/
+info:	Sun Apr 21 2012 12:58:32 Directory valid: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/
+info:	Sun Apr 21 2012 12:58:32 Plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/NoFound404Plugin.js
+info:	Sun Apr 21 2012 12:58:32 Config plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/config_NoFound404Plugin.json
+info:	Sun Apr 21 2012 12:58:32 Scanning directory:C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/
+info:	Sun Apr 21 2012 12:58:32 Directory valid: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/
+info:	Sun Apr 21 2012 12:58:32 Plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js
+info:	Sun Apr 21 2012 12:58:32 Config plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json
+info:	Sun Apr 21 2012 12:58:32 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/NoFound404Plugin.js File included succesfully!
+info:	Sun Apr 21 2012 12:58:32 C:/Users/Jonathand/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Sun Apr 21 2012 12:58:32 path====================C:/Users/Jonathand/Tesis/RhyfoxJS/src
+info:	Sun Apr 21 2012 13:12:15 RhyfoxJS started
+debug:	Sun Apr 21 2012 13:12:15 readConfig function called!
+info:	Sun Apr 21 2012 13:12:15 Loading: C:/Users/Jonathand/Tesis/RhyfoxJS/src/../config.json
+info:	Sun Apr 21 2012 13:12:15 C:/Users/Jonathand/Tesis/RhyfoxJS/config.json File included succesfully!
+info:	Sun Apr 21 2012 13:12:15 C:/Users/Jonathand/Tesis/RhyfoxJS/src/../config.json Loading configuration parameters ...
+info:	Sun Apr 21 2012 13:12:15 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins Plugins path loaded!
+info:	Sun Apr 21 2012 13:12:15 Logger options loaded!
+info:	Sun Apr 21 2012 13:12:15 Log levels loaded!
+info:	Sun Apr 21 2012 13:12:15 Includes path loaded!
+info:	Sun Apr 21 2012 13:12:15 CasperJS path loaded!
+info:	Sun Apr 21 2012 13:12:15 Timeout parameter loaded!
+info:	Sun Apr 21 2012 13:12:15 Configuration parameters loaded!
+info:	Sun Apr 21 2012 13:12:15 List the plugins of directory: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins
+info:	Sun Apr 21 2012 13:12:15 Scanning directory:C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/
+info:	Sun Apr 21 2012 13:12:15 Directory valid: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/
+info:	Sun Apr 21 2012 13:12:15 Plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/NoFound404Plugin.js
+info:	Sun Apr 21 2012 13:12:15 Config plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/config_NoFound404Plugin.json
+info:	Sun Apr 21 2012 13:12:15 Scanning directory:C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/
+info:	Sun Apr 21 2012 13:12:15 Directory valid: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/
+info:	Sun Apr 21 2012 13:12:15 Plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js
+info:	Sun Apr 21 2012 13:12:15 Config plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json
+info:	Sun Apr 21 2012 13:12:15 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/NoFound404Plugin.js File included succesfully!
+info:	Sun Apr 21 2012 13:12:15 C:/Users/Jonathand/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Sun Apr 21 2012 13:12:15 path====================C:/Users/Jonathand/Tesis/RhyfoxJS/src
+info:	Sun Apr 21 2012 13:34:37 RhyfoxJS started
+debug:	Sun Apr 21 2012 13:34:37 readConfig function called!
+info:	Sun Apr 21 2012 13:34:37 Loading: C:/Users/Jonathand/Tesis/RhyfoxJS/src/../config.json
+info:	Sun Apr 21 2012 13:34:37 C:/Users/Jonathand/Tesis/RhyfoxJS/config.json File included succesfully!
+info:	Sun Apr 21 2012 13:34:37 C:/Users/Jonathand/Tesis/RhyfoxJS/src/../config.json Loading configuration parameters ...
+info:	Sun Apr 21 2012 13:34:37 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins Plugins path loaded!
+info:	Sun Apr 21 2012 13:34:37 Logger options loaded!
+info:	Sun Apr 21 2012 13:34:37 Log levels loaded!
+info:	Sun Apr 21 2012 13:34:37 Includes path loaded!
+info:	Sun Apr 21 2012 13:34:37 CasperJS path loaded!
+info:	Sun Apr 21 2012 13:34:37 Timeout parameter loaded!
+info:	Sun Apr 21 2012 13:34:37 Configuration parameters loaded!
+info:	Sun Apr 21 2012 13:34:37 List the plugins of directory: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins
+info:	Sun Apr 21 2012 13:34:37 Scanning directory:C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/
+info:	Sun Apr 21 2012 13:34:37 Directory valid: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/
+info:	Sun Apr 21 2012 13:34:37 Plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/NoFound404Plugin.js
+info:	Sun Apr 21 2012 13:34:37 Config plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/config_NoFound404Plugin.json
+info:	Sun Apr 21 2012 13:34:37 Scanning directory:C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/
+info:	Sun Apr 21 2012 13:34:37 Directory valid: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/
+info:	Sun Apr 21 2012 13:34:37 Plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js
+info:	Sun Apr 21 2012 13:34:37 Config plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json
+info:	Sun Apr 21 2012 13:34:37 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/NoFound404Plugin.js File included succesfully!
+info:	Sun Apr 21 2012 13:34:37 C:/Users/Jonathand/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Sun Apr 21 2012 13:34:37 path====================C:/Users/Jonathand/Tesis/RhyfoxJS/src
+info:	Sun Apr 21 2012 13:40:27 RhyfoxJS started
+debug:	Sun Apr 21 2012 13:40:27 readConfig function called!
+info:	Sun Apr 21 2012 13:40:27 Loading: C:/Users/Jonathand/Tesis/RhyfoxJS/src/../config.json
+info:	Sun Apr 21 2012 13:40:27 C:/Users/Jonathand/Tesis/RhyfoxJS/config.json File included succesfully!
+info:	Sun Apr 21 2012 13:40:27 C:/Users/Jonathand/Tesis/RhyfoxJS/src/../config.json Loading configuration parameters ...
+info:	Sun Apr 21 2012 13:40:27 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins Plugins path loaded!
+info:	Sun Apr 21 2012 13:40:27 Logger options loaded!
+info:	Sun Apr 21 2012 13:40:27 Log levels loaded!
+info:	Sun Apr 21 2012 13:40:27 Includes path loaded!
+info:	Sun Apr 21 2012 13:40:27 CasperJS path loaded!
+info:	Sun Apr 21 2012 13:40:27 Timeout parameter loaded!
+info:	Sun Apr 21 2012 13:40:27 Configuration parameters loaded!
+info:	Sun Apr 21 2012 13:40:27 List the plugins of directory: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins
+info:	Sun Apr 21 2012 13:40:27 Scanning directory:C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/
+info:	Sun Apr 21 2012 13:40:27 Directory valid: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/
+info:	Sun Apr 21 2012 13:40:27 Plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/NoFound404Plugin.js
+info:	Sun Apr 21 2012 13:40:27 Config plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/config_NoFound404Plugin.json
+info:	Sun Apr 21 2012 13:40:27 Scanning directory:C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/
+info:	Sun Apr 21 2012 13:40:27 Directory valid: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/
+info:	Sun Apr 21 2012 13:40:27 Plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js
+info:	Sun Apr 21 2012 13:40:27 Config plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json
+info:	Sun Apr 21 2012 13:40:27 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/NoFound404Plugin.js File included succesfully!
+info:	Sun Apr 21 2012 13:40:27 C:/Users/Jonathand/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Sun Apr 21 2012 13:40:27 path====================C:/Users/Jonathand/Tesis/RhyfoxJS/src
+info:	Sun Apr 21 2012 13:46:5 plugin: NoFound404Plugin state: finish 
+info:	Sun Apr 21 2012 13:46:6 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js File included succesfully!
+info:	Sun Apr 21 2012 13:46:6 C:/Users/Jonathand/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Sun Apr 21 2012 13:46:6 plugin: TiempoEjecucionPlugin state: finish 
+info:	Sun Apr 21 2012 13:49:11 RhyfoxJS started
+debug:	Sun Apr 21 2012 13:49:11 readConfig function called!
+info:	Sun Apr 21 2012 13:49:11 Loading: C:/Users/Jonathand/Tesis/RhyfoxJS/src/../config.json
+info:	Sun Apr 21 2012 13:49:11 C:/Users/Jonathand/Tesis/RhyfoxJS/config.json File included succesfully!
+info:	Sun Apr 21 2012 13:49:11 C:/Users/Jonathand/Tesis/RhyfoxJS/src/../config.json Loading configuration parameters ...
+info:	Sun Apr 21 2012 13:49:11 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins Plugins path loaded!
+info:	Sun Apr 21 2012 13:49:11 Logger options loaded!
+info:	Sun Apr 21 2012 13:49:11 Log levels loaded!
+info:	Sun Apr 21 2012 13:49:11 Includes path loaded!
+info:	Sun Apr 21 2012 13:49:11 CasperJS path loaded!
+info:	Sun Apr 21 2012 13:49:11 Timeout parameter loaded!
+info:	Sun Apr 21 2012 13:49:11 Configuration parameters loaded!
+info:	Sun Apr 21 2012 13:49:11 List the plugins of directory: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins
+info:	Sun Apr 21 2012 13:49:11 Scanning directory:C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/
+info:	Sun Apr 21 2012 13:49:11 Directory valid: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/
+info:	Sun Apr 21 2012 13:49:11 Plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/NoFound404Plugin.js
+info:	Sun Apr 21 2012 13:49:11 Config plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/config_NoFound404Plugin.json
+info:	Sun Apr 21 2012 13:49:11 Scanning directory:C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/
+info:	Sun Apr 21 2012 13:49:11 Directory valid: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/
+info:	Sun Apr 21 2012 13:49:11 Plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js
+info:	Sun Apr 21 2012 13:49:11 Config plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json
+info:	Sun Apr 21 2012 13:49:11 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/NoFound404Plugin.js File included succesfully!
+info:	Sun Apr 21 2012 13:49:11 C:/Users/Jonathand/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Sun Apr 21 2012 13:49:11 path====================C:/Users/Jonathand/Tesis/RhyfoxJS/src
+info:	Sun Apr 21 2012 13:50:22 RhyfoxJS started
+debug:	Sun Apr 21 2012 13:50:22 readConfig function called!
+info:	Sun Apr 21 2012 13:50:22 Loading: C:/Users/Jonathand/Tesis/RhyfoxJS/src/../config.json
+info:	Sun Apr 21 2012 13:50:22 C:/Users/Jonathand/Tesis/RhyfoxJS/config.json File included succesfully!
+info:	Sun Apr 21 2012 13:50:22 C:/Users/Jonathand/Tesis/RhyfoxJS/src/../config.json Loading configuration parameters ...
+info:	Sun Apr 21 2012 13:50:22 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins Plugins path loaded!
+info:	Sun Apr 21 2012 13:50:22 Logger options loaded!
+info:	Sun Apr 21 2012 13:50:22 Log levels loaded!
+info:	Sun Apr 21 2012 13:50:22 Includes path loaded!
+info:	Sun Apr 21 2012 13:50:22 CasperJS path loaded!
+info:	Sun Apr 21 2012 13:50:22 Timeout parameter loaded!
+info:	Sun Apr 21 2012 13:50:22 Configuration parameters loaded!
+info:	Sun Apr 21 2012 13:50:22 List the plugins of directory: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins
+info:	Sun Apr 21 2012 13:50:22 Scanning directory:C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/
+info:	Sun Apr 21 2012 13:50:22 Directory valid: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/
+info:	Sun Apr 21 2012 13:50:22 Plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/NoFound404Plugin.js
+info:	Sun Apr 21 2012 13:50:22 Config plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/config_NoFound404Plugin.json
+info:	Sun Apr 21 2012 13:50:22 Scanning directory:C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/
+info:	Sun Apr 21 2012 13:50:22 Directory valid: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/
+info:	Sun Apr 21 2012 13:50:22 Plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js
+info:	Sun Apr 21 2012 13:50:22 Config plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json
+info:	Sun Apr 21 2012 13:50:22 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/NoFound404Plugin.js File included succesfully!
+info:	Sun Apr 21 2012 13:50:22 C:/Users/Jonathand/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Sun Apr 21 2012 13:50:22 path====================C:/Users/Jonathand/Tesis/RhyfoxJS/src
+info:	Sun Apr 21 2012 13:53:50 RhyfoxJS started
+debug:	Sun Apr 21 2012 13:53:50 readConfig function called!
+info:	Sun Apr 21 2012 13:53:50 Loading: C:/Users/Jonathand/Tesis/RhyfoxJS/src/../config.json
+info:	Sun Apr 21 2012 13:53:50 C:/Users/Jonathand/Tesis/RhyfoxJS/config.json File included succesfully!
+info:	Sun Apr 21 2012 13:53:50 C:/Users/Jonathand/Tesis/RhyfoxJS/src/../config.json Loading configuration parameters ...
+info:	Sun Apr 21 2012 13:53:50 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins Plugins path loaded!
+info:	Sun Apr 21 2012 13:53:50 Logger options loaded!
+info:	Sun Apr 21 2012 13:53:50 Log levels loaded!
+info:	Sun Apr 21 2012 13:53:50 Includes path loaded!
+info:	Sun Apr 21 2012 13:53:50 CasperJS path loaded!
+info:	Sun Apr 21 2012 13:53:50 Timeout parameter loaded!
+info:	Sun Apr 21 2012 13:53:50 Configuration parameters loaded!
+info:	Sun Apr 21 2012 13:53:50 List the plugins of directory: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins
+info:	Sun Apr 21 2012 13:53:50 Scanning directory:C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/
+info:	Sun Apr 21 2012 13:53:50 Directory valid: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/
+info:	Sun Apr 21 2012 13:53:50 Plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/NoFound404Plugin.js
+info:	Sun Apr 21 2012 13:53:50 Config plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/config_NoFound404Plugin.json
+info:	Sun Apr 21 2012 13:53:50 Scanning directory:C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/
+info:	Sun Apr 21 2012 13:53:50 Directory valid: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/
+info:	Sun Apr 21 2012 13:53:50 Plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js
+info:	Sun Apr 21 2012 13:53:50 Config plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json
+info:	Sun Apr 21 2012 13:53:50 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/NoFound404Plugin.js File included succesfully!
+info:	Sun Apr 21 2012 13:53:50 C:/Users/Jonathand/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Sun Apr 21 2012 13:53:50 path====================C:/Users/Jonathand/Tesis/RhyfoxJS/src
+info:	Sun Apr 21 2012 13:53:54 plugin: NoFound404Plugin state: finish 
+info:	Sun Apr 21 2012 13:53:54 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js File included succesfully!
+info:	Sun Apr 21 2012 13:53:54 C:/Users/Jonathand/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Sun Apr 21 2012 13:53:54 plugin: TiempoEjecucionPlugin state: finish 
+info:	Sun Apr 21 2012 13:59:58 RhyfoxJS started
+debug:	Sun Apr 21 2012 13:59:58 readConfig function called!
+info:	Sun Apr 21 2012 13:59:58 Loading: C:/Users/Jonathand/Tesis/RhyfoxJS/src/../config.json
+info:	Sun Apr 21 2012 13:59:58 C:/Users/Jonathand/Tesis/RhyfoxJS/config.json File included succesfully!
+info:	Sun Apr 21 2012 13:59:58 C:/Users/Jonathand/Tesis/RhyfoxJS/src/../config.json Loading configuration parameters ...
+info:	Sun Apr 21 2012 13:59:58 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins Plugins path loaded!
+info:	Sun Apr 21 2012 13:59:58 Logger options loaded!
+info:	Sun Apr 21 2012 13:59:58 Log levels loaded!
+info:	Sun Apr 21 2012 13:59:58 Includes path loaded!
+info:	Sun Apr 21 2012 13:59:58 CasperJS path loaded!
+info:	Sun Apr 21 2012 13:59:58 Timeout parameter loaded!
+info:	Sun Apr 21 2012 13:59:58 Configuration parameters loaded!
+info:	Sun Apr 21 2012 13:59:58 List the plugins of directory: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins
+info:	Sun Apr 21 2012 13:59:58 Scanning directory:C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/
+info:	Sun Apr 21 2012 13:59:58 Directory valid: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/
+info:	Sun Apr 21 2012 13:59:58 Plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/NoFound404Plugin.js
+info:	Sun Apr 21 2012 13:59:58 Config plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/config_NoFound404Plugin.json
+info:	Sun Apr 21 2012 13:59:58 Scanning directory:C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/
+info:	Sun Apr 21 2012 13:59:58 Directory valid: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/
+info:	Sun Apr 21 2012 13:59:58 Plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js
+info:	Sun Apr 21 2012 13:59:58 Config plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json
+info:	Sun Apr 21 2012 13:59:58 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/NoFound404Plugin.js File included succesfully!
+info:	Sun Apr 21 2012 13:59:58 C:/Users/Jonathand/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Sun Apr 21 2012 13:59:58 path====================C:/Users/Jonathand/Tesis/RhyfoxJS/src
+info:	Sun Apr 21 2012 14:0:3 plugin: NoFound404Plugin state: finish 
+info:	Sun Apr 21 2012 14:0:4 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js File included succesfully!
+info:	Sun Apr 21 2012 14:0:4 C:/Users/Jonathand/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Sun Apr 21 2012 14:0:4 plugin: TiempoEjecucionPlugin state: finish 
+info:	Sun Apr 21 2012 14:1:3 RhyfoxJS started
+debug:	Sun Apr 21 2012 14:1:3 readConfig function called!
+info:	Sun Apr 21 2012 14:1:3 Loading: C:/Users/Jonathand/Tesis/RhyfoxJS/src/../config.json
+info:	Sun Apr 21 2012 14:1:3 C:/Users/Jonathand/Tesis/RhyfoxJS/config.json File included succesfully!
+info:	Sun Apr 21 2012 14:1:3 C:/Users/Jonathand/Tesis/RhyfoxJS/src/../config.json Loading configuration parameters ...
+info:	Sun Apr 21 2012 14:1:3 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins Plugins path loaded!
+info:	Sun Apr 21 2012 14:1:3 Logger options loaded!
+info:	Sun Apr 21 2012 14:1:3 Log levels loaded!
+info:	Sun Apr 21 2012 14:1:3 Includes path loaded!
+info:	Sun Apr 21 2012 14:1:3 CasperJS path loaded!
+info:	Sun Apr 21 2012 14:1:3 Timeout parameter loaded!
+info:	Sun Apr 21 2012 14:1:3 Configuration parameters loaded!
+info:	Sun Apr 21 2012 14:1:3 List the plugins of directory: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins
+info:	Sun Apr 21 2012 14:1:3 Scanning directory:C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/
+info:	Sun Apr 21 2012 14:1:3 Directory valid: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/
+info:	Sun Apr 21 2012 14:1:3 Plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/NoFound404Plugin.js
+info:	Sun Apr 21 2012 14:1:3 Config plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/config_NoFound404Plugin.json
+info:	Sun Apr 21 2012 14:1:3 Scanning directory:C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/
+info:	Sun Apr 21 2012 14:1:3 Directory valid: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/
+info:	Sun Apr 21 2012 14:1:3 Plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js
+info:	Sun Apr 21 2012 14:1:3 Config plugin file found!: C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json
+info:	Sun Apr 21 2012 14:1:3 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/NoFound404Plugin/NoFound404Plugin.js File included succesfully!
+info:	Sun Apr 21 2012 14:1:3 C:/Users/Jonathand/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Sun Apr 21 2012 14:1:3 path====================C:/Users/Jonathand/Tesis/RhyfoxJS/src
+info:	Sun Apr 21 2012 14:1:8 plugin: NoFound404Plugin state: finish 
+info:	Sun Apr 21 2012 14:1:8 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js File included succesfully!
+info:	Sun Apr 21 2012 14:1:8 C:/Users/Jonathand/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Sun Apr 21 2012 14:1:8 plugin: TiempoEjecucionPlugin state: finish 

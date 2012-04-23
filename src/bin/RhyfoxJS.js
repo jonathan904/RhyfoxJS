@@ -32,18 +32,19 @@ function RhyfoxJS(){
 					this.logger.insertLog('Directory valid: '+pluginPath,'info');
 					if(fs.exists(pluginFilePath)){
 						this.logger.insertLog('Plugin file found!: '+pluginFilePath,'info');
-						this.plugins.push({
-											name:   plugins[i],
-											state:  'stop',
-											pluginPath:	pluginFilePath
-										});
-						var pluginsConfigFilePath=pluginPath+'config_'+plugins[i]+'.json';				
+						var pluginsConfigFilePath=pluginPath+'config_'+plugins[i]+'.json';
+						var configPath="";	
 						if(fs.exists(pluginsConfigFilePath)){ 
-							this.plugins.config= 'config_'+ plugins[i];
-							this.plugins.configPath= pluginsConfigFilePath;
+							configPath= pluginsConfigFilePath;
 							this.logger.insertLog('Config plugin file found!: '+pluginsConfigFilePath,'info');
 						}
-						else this.logger.insertLog('Config plugin file not found!: '+pluginsConfigFilePath,'warning');			
+						else this.logger.insertLog('Config plugin file not found!: '+pluginsConfigFilePath,'warning');	
+						this.plugins.push({
+											name:   			plugins[i],
+											state:  			'stop',
+											pluginPath:			pluginFilePath,
+											pluginConfigPath:	configPath
+										});
 					}
 					else this.logger.insertLog('Directory empty: '+pluginPath,'warning');		
 				}
@@ -110,12 +111,33 @@ function RhyfoxJS(){
 		if(this.indexPlugin<this.plugins.length){ 	
 			this.plugins[this.indexPlugin].state='start';
 			var pluginPath=this.plugins[this.indexPlugin].pluginPath;
-			this.requireFile(pluginPath);
-			this.requireFile(this.currentPath+'/bin/PublicAPI.js');
-			eval("var Plugin="+this.plugins[this.indexPlugin].name+";");
-			var newPlugin= new Plugin();
-			newPlugin.api=new PublicAPI(this.plugins[this.indexPlugin],this.logger,phantom);
-			newPlugin.run();
+			try{
+				this.requireFile(pluginPath);
+				this.requireFile(this.currentPath+'/bin/PublicAPI.js');
+				eval("var Plugin="+this.plugins[this.indexPlugin].name+";");
+				var newPlugin= new Plugin();
+				newPlugin.api= new PublicAPI(this.plugins[this.indexPlugin],this.logger);
+			}
+			catch(err){
+				this.logger.insertLog('Error loading Plugin: '+this.plugins[this.indexPlugin].name+' '+err,'info');
+			}
+			var pluginConfigPath=this.plugins[this.indexPlugin].pluginConfigPath;
+			if(pluginConfigPath!=""){
+				this.logger.insertLog('Indexing the plugin config','info');
+				this.requireFile(pluginConfigPath);
+				try{
+					eval("var configPlugin=config_"+this.plugins[this.indexPlugin].name+";");
+					newPlugin.configPlugin=configPlugin;
+				}catch(err){
+					this.logger.insertLog('Error in the plugin config: '+err,'info');
+				}
+			}
+			try{
+				newPlugin.run();
+			}catch(err){
+				this.logger.insertLog('Error in the run function '+this.plugins[this.indexPlugin].name+' Plugin: '+err,'info');
+			}
+			
 		}
 		
 	}
@@ -127,13 +149,16 @@ function RhyfoxJS(){
 		this.requireFile(abstConfigPath);
 		this.logger.insertLog(this.config_path+' Loading configuration parameters ...','info');
 		this.pluginsPath=config.paths.pluginsPath;
+		this.pluginsPath=this.pluginsPath.replace(/\\/g,'/');
 		this.logger.insertLog(this.pluginsPath+' Plugins path loaded!','info');
 		this.logger.config=config.loggger;
 		this.logger.insertLog('Logger options loaded!','info');
 		this.logger.insertLog('Log levels loaded!','info');
 		this.includesPath=config.paths.includesPath;
+		this.includesPath=this.includesPath.replace(/\\/g,'/');
 		this.logger.insertLog('Includes path loaded!','info');
 		this.casperPath=config.paths.casperPath;
+		this.casperPath=this.casperPath.replace(/\\/g,'/');
 		this.logger.insertLog('CasperJS path loaded!','info');
 		this.timeOut=config.timeout;
 		this.logger.insertLog('Timeout parameter loaded!','info');
@@ -141,7 +166,7 @@ function RhyfoxJS(){
 	}
 	this.exit=function(){//exit the RhyfoxJS.js
 		this.logger.insertLog('pluginExit function called!','debug');
-		this.logger.insertLog('Exits RhyfoxJS ','debug');
+		this.logger.insertLog('Exits RhyfoxJS ','info');
 		phantom.exit();
 	}
 }

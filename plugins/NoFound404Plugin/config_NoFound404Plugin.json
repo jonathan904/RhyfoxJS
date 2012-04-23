@@ -1,6 +1,6 @@
 config_NoFound404Plugin = {
 	name: 'NoFound404Plugin',
 	Param1: 'param1',
-	Urls: 
-		['http://www.colegioparroquialrincondesuba.edu.co/','www.frutasyverduraspeter.com']
+	urls: 
+		['http://frutasyverduraspeter.com/','http://www.colegioparroquialrincondesuba.edu.co/']
 }
