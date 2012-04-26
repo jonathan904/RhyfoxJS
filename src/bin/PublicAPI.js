@@ -99,7 +99,6 @@ function PublicAPI(objPlugin,objLogger){
 		    	callback(page.resources);
 		    } 	
 	    });
-	    
 	}
 	
 	this.dump=function(arr,level) {

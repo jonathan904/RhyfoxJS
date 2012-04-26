@@ -7,26 +7,52 @@ function NoFound404Plugin(){
 		this.api.getLinks(url,function(links){
 			instance.getBrokenLinks(links);
 		});
+	
+		
 	}
 	this.getBrokenLinks=function(links){	
 		var j=1;
-		//var link=links[0].href;
-		var link='http://frutasyverduraspeter.com/';
+		var casper=this.api.getCasperJs();
+		casper.on('http.status.404', function(resource) {
+			casper.echo(resource.url + ' is 404');
+		});
+		console.log('entrooooooooo '+typeof casper);
+		var k=0;
+		var link="";
+		var link2="";
 		for(i in links){
-			//var j=i++;
-			console.log('Link: '+j+'	'+links[i].text+' href:		'+links[i].href);
-			j++;
+			//var link='http://google.com.co/jas';
+			//link=i==0?'http://google.com.co/jas':links[i].href;
+			link=j==1?'http://www.google.com.co/jas':links[i].href;
+			if(/^http\:\/\/.*/.test(link)){
+				//var link2=j==6?'http://google.com.co/jas':link;
+				//link2=link;
+				
+				console.log(i+' Link: '+j+'	'+links[i].text+' href:		'+link);
+				j++;
+				if(k==0){
+					//console.log('holaaaaaa10');
+					casper.start(link,function(self) {
+						//self.echo(self.getCurrentUrl());
+					 	self.echo(i+' hola 2 '+link2);   
+					});
+				}else{
+					casper.thenOpen(link, function(self) {
+						self.echo(self.getCurrentUrl());
+    					//this.echo(i+"  Now I'm in your yahoo."+link2)
+					});
+				}	
+				
+				k++;
+			}
 		}
-		
-		this.api.getUrlResources(link,function(resources){
-			var entries = [];
-
-    		resources.forEach(function (resource) {
-    			endReply = resource.endReply;
-    			console.log('status: '+endReply.status);
-    		});
+		casper.run(function(){
 			instance.api.finishPlugin();
 		});
 		
+		
+		
+		
 	}
+	
 }
