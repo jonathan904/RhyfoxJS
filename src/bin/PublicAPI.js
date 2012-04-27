@@ -68,8 +68,32 @@ function PublicAPI(objPlugin,objLogger){
 		            	else var href=list[i].getAttribute('href');
 		            	var arrLink={
 		            		text:		list[i].innerHTML,
-		            		href:		href
+		            		href:		{
+		            						absolute:	null,
+		            						relative:	null,
+		            						anchor:		null,
+		            						protocol:	null,
+		            						domine:		null,
+		            						port:		null
+		            					}
 		            	};
+		            	if(/^http\:\/\/.*/.test(href)){//url type: Absolute http://  
+		            		arrLink.href.absolute=href;
+		            		//var matches=href.match(/^([a-z]+)\:\/\/([A-z]+\.?[A-z]+)/);
+		            		var matches=href.match(/^(?:(ht|f)tp(s?)\:\/\/)?([-.\w]*[0-9a-zA-Z])*(:?([0-9]+)*)((\/?[A-z0-9]+\/?)*([A-z0-9]*\.[A-z]*))*(\?[A-z0-9]+\=[A-z0-9\_]*)*(\#)*/);
+		            		arrLink.href.absolute=matches[0];
+		            		arrLink.href.protocol=matches[1]+'tp'+matches[2];
+		            		arrLink.href.domine=matches[3];
+		            		arrLink.href.port=matches[5];
+		            		arrLink.href.relative=matches[6];
+		            		
+		            	}
+		            	if(/^\.\.\/|[A-z]+\.[A-z]+\//.test(href)){ //url type: Relative ../file.ext or file.ext/
+		            		arrLink.href.relative=href;
+		            	}
+		            	if(href=="#"){ //url type: anchor #
+		            		arrLink.href.anchor=href;
+		            	}
 		            	links.push(arrLink);
 		            }
 		            return links;

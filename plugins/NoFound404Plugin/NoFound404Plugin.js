@@ -13,34 +13,21 @@ function NoFound404Plugin(){
 	this.getBrokenLinks=function(links){	
 		var j=1;
 		var casper=this.api.getCasperJs();
-		casper.on('http.status.404', function(resource) {
-			casper.echo(resource.url + ' is 404');
-		});
-		console.log('entrooooooooo '+typeof casper);
 		var k=0;
 		var link="";
-		var link2="";
 		for(i in links){
-			//var link='http://google.com.co/jas';
-			//link=i==0?'http://google.com.co/jas':links[i].href;
-			link=j==1?'http://www.google.com.co/jas':links[i].href;
+			link=j==1?'http://www.google.com.co/jas':links[i].href.absolute;
 			if(/^http\:\/\/.*/.test(link)){
-				//var link2=j==6?'http://google.com.co/jas':link;
-				//link2=link;
-				
-				console.log(i+' Link: '+j+'	'+links[i].text+' href:		'+link);
+				console.log(i+' Link: '+j+'	'+links[i].text+' href:		'+link+' protocol:	'+links[i].href.protocol+' domine:	'+links[i].href.domine);
 				j++;
 				if(k==0){
-					//console.log('holaaaaaa10');
 					casper.start(link,function(self) {
-						//self.echo(self.getCurrentUrl());
-					 	self.echo(i+' hola 2 '+link2);   
+						self.echo(self.getCurrentUrl());  
 					});
 				}else{
 					casper.thenOpen(link, function(self) {
 						self.echo(self.getCurrentUrl());
-    					//this.echo(i+"  Now I'm in your yahoo."+link2)
-					});
+    				});
 				}	
 				
 				k++;
