@@ -9,6 +9,9 @@ function PublicAPI(objPlugin,objLogger){
 	this.objPlugin=objPlugin;
 	this.objLogger=objLogger;
 	this.currentPath=fs.workingDirectory;
+	//phantom.injectJs('C:\\Users\\Jonathand\\My Documents\\Aptana Studio 3 Workspace\\RhyfoxJS\\includes\\jsuri1.1.1\\jsuri-1.1.1.js');//include uri
+	//this.uri= Uri;
+	//var uri = new this.uri('http://user:pass@www.test.com:81/index.html?q=books#fragment');
 	instance=this;
 	
 	this.getCasperJs=function(){
@@ -41,14 +44,15 @@ function PublicAPI(objPlugin,objLogger){
 	}
 	this.requireFile=function(filePath){
 		this.objLogger.insertLog('requireFile function called!','debug');
-		this.objLogger.insertLog('file '+filePath,'info');
+		this.objLogger.insertLog('file '+filePath,'debug');
 		if(phantom.injectJs(filePath))
-			this.objLogger.insertLog(filePath+' File included succesfully!','info');
+			this.objLogger.insertLog(filePath+' File included succesfully!','debug');
 		else 
 			this.objLogger.insertLog(filePath+" File invalid!",'error');
 	}
 	this.getLinks=function(url,callback) {
 		this.objLogger.insertLog('getLinks function called!','debug');
+		this.objLogger.insertLog('url: '+url,'info');
 		var page = require('webpage').create();
 	    var genLinks=[];
 	    page.open(url, function (status) {
@@ -66,39 +70,52 @@ function PublicAPI(objPlugin,objLogger){
 		            		}
 		            	}
 		            	else var href=list[i].getAttribute('href');
+		            	
 		            	var arrLink={
 		            		text:		list[i].innerHTML,
 		            		href:		{
-		            						absolute:	null,
+		            						absolute:	href,
 		            						relative:	null,
 		            						anchor:		null,
 		            						protocol:	null,
 		            						domine:		null,
+		            						query:		null,
 		            						port:		null
 		            					}
 		            	};
-		            	if(/^http\:\/\/.*/.test(href)){//url type: Absolute http://  
-		            		arrLink.href.absolute=href;
-		            		//var matches=href.match(/^([a-z]+)\:\/\/([A-z]+\.?[A-z]+)/);
-		            		var matches=href.match(/^(?:(ht|f)tp(s?)\:\/\/)?([-.\w]*[0-9a-zA-Z])*(:?([0-9]+)*)((\/?[A-z0-9]+\/?)*([A-z0-9]*\.[A-z]*))*(\?[A-z0-9]+\=[A-z0-9\_]*)*(\#)*/);
-		            		arrLink.href.absolute=matches[0];
-		            		arrLink.href.protocol=matches[1]+'tp'+matches[2];
-		            		arrLink.href.domine=matches[3];
-		            		arrLink.href.port=matches[5];
-		            		arrLink.href.relative=matches[6];
-		            		
-		            	}
-		            	if(/^\.\.\/|[A-z]+\.[A-z]+\//.test(href)){ //url type: Relative ../file.ext or file.ext/
-		            		arrLink.href.relative=href;
-		            	}
-		            	if(href=="#"){ //url type: anchor #
-		            		arrLink.href.anchor=href;
-		            	}
 		            	links.push(arrLink);
 		            }
 		            return links;
 		        });
-		        genLinks=results;
+		        instance.requireFile('C:\\Users\\Jonathand\\My Documents\\Aptana Studio 3 Workspace\\RhyfoxJS\\includes\\jsuri1.1.1\\jsuri-1.1.1.js');//include uri
+		        var k=0,r=[];
+		        for(k in results){
+		        	var linka=results[k].href.absolute;
+		        	if(/^http\:\/\/.*/.test(linka)){}//skip :)
+		        	else{ 
+		        		if(/^\.\.[A-z0-9\_]+\/?.*/.test(linka)|| /^[A-z0-9\_]+\.[A-z0-9]+/.test(linka)|| /^[A-z0-9\_]+\/?.*/.test(linka)){
+		        			linka=url+linka;
+		        		}
+		        		if(linka=='#')linka=url+linka;
+		        	}
+		        	var uri=new Uri(linka);
+		        	var arrRL={
+		        		url:	url, //URL of  href origin
+		        		text:	results[k].text,
+	        			href:	{
+            						absolute:	linka,
+            						relative:	uri.path(),
+            						anchor:		uri.anchor(),
+            						protocol:	uri.protocol(),
+            						domine:		uri.host(),
+            						query:		uri.query(),
+            						port:		uri.port()
+	            				}
+		        	};
+		        	r.push(arrRL);
+		        }
+		        instance.objLogger.insertLog('Links of '+url+':  '+JSON.stringify(r, undefined, 4),'info');
+		        genLinks=r;
 		        callback(genLinks);
 		    }
 		});
@@ -124,7 +141,88 @@ function PublicAPI(objPlugin,objLogger){
 		    } 	
 	    });
 	}
-	
+	this.report=function(name){//report system of plugins
+		this.name=name;
+		this.data=[];
+		this.success=0;
+		this.fail=0;
+		this.setSuccess=function(){
+			this.success++;
+		}
+		this.setFail=function(){
+			this.fail++;
+		}
+		this.title='Report generate for RhyfoxJS';
+		this.dataReport=function(result){
+			this.data.push(result);
+		}
+		this.setTitle=function(title){
+			this.title=title;
+		}
+		this.createReport=function(){
+			instance.objLogger.insertLog('report function called!','info');
+			var timestamp=instance.objLogger.getDate(); //current time
+			//var reportPath='C:\\Users\Jonathand\\My Documents\\Aptana Studio 3 Workspace\\RhyfoxJS\\reports';
+			var reportPath=instance.currentPath;
+			console.log(reportPath);
+			timestamp1=timestamp.replace(/\s+/g,'_');
+			timestamp1=timestamp.replace(/\:+/g,'_');
+			var reportFolderName=timestamp1+'_'+this.name;
+			var reportFolderPath=reportPath+'/../reports/'+reportFolderName+'/';
+			var reportPath=reportFolderPath+reportFolderName+'.html';
+			console.log(reportPath);
+			fs.makeDirectory(reportFolderPath);
+			fs.touch(reportPath);
+			var file=fs.open(reportPath,'a');
+			var html='<html><head>'+
+		      '<script type="text/javascript" src="https://www.google.com/jsapi"></script>'+
+		      '<script type="text/javascript">'+
+		      'google.load("visualization", "1", {packages:["corechart"]});'+
+		      'google.setOnLoadCallback(drawChart);'+
+		      'function drawChart() {'+
+		        'var data = google.visualization.arrayToDataTable(['+
+		        '[\'Task\', \'Hours per Day\'],';
+		        var length=this.data.length-1;
+		        var ext="";
+		        /*var success=0;
+		        var fail=0;
+		        for(i in this.data ){
+		        	if(this.data[i]==1)success++;
+					else fail++;	
+				} */	
+		   html+='[\'Success\', '+this.success+'],';
+		   html+='[\'Fail\', '+this.fail+']';       
+		   html+=']);'+
+				'var options = {'+
+					'title: 	\''+this.title+'\','+
+		        'colors:	[\'green\',\'red\']'+
+		        '};'+
+		        'var chart = new google.visualization.PieChart(document.getElementById(\'chart_div\'));'+
+		        'chart.draw(data, options);'+
+		      '}'+
+		    '</script>'+
+		  '</head>'+
+		  '<body>'+
+		  	'<a href=\'http://jonathan904.github.com/RhyfoxJS\'><img src=\'http://i297.photobucket.com/albums/mm213/jonathan52380/rhyfoxjs_icon_trasn.png\' width=\'200\' height=\'150\'></a>'+
+		  	'<h1 style=\'text-align:center\'>RhyfoxJS Reports</h1><hr>'+
+		    '<div id="chart_div" style="width: 900px; height: 500px;"></div>'+
+		    '<p>Report generate for <a href=\'http://jonathan904.github.com/RhyfoxJS\'><b>RhyfoxJS</b></a>:</p>'+
+		    'Name:		'+this.name+'<br>'+
+		    'Date:		'+timestamp+'<br>'+
+		  '</body></html>';
+			
+			file.writeLine(html);
+			file.close();
+				
+		}
+		  
+		
+		 
+		
+	}
+	this.reportData=function(result){
+		
+	}
 	this.dump=function(arr,level) {
 		this.objLogger.insertLog('dump function called!','debug');
 		var dumped_text = "";
