@@ -14,18 +14,35 @@ function NoFound404Plugin(){
 		var report=new this.api.report('NoFound404Plugin');
 		report.setTitle('Broken Links Report');
 		var j=1;
+		var data=[];
 		var casper=this.api.getCasperJs();
 		casper.on('http.status.404', function(resource) {
     		report.setFail();
-		});
+    		data.push({
+    			link:	resource.url,
+    			result:	'Fail'
+    		});
+    	});
 		casper.on('http.status.200', function(resource) {
     		report.setSuccess();
+    		data.push({
+    			link:	resource.url,
+    			result:	'Sucess'
+    		});
 		});
 		casper.on('http.status.302', function(resource) {
     		report.setSuccess();
+    		data.push({
+    			link:	resource.url,
+    			result:	'Sucess'
+    		});
 		});
 		casper.on('http.status.301', function(resource) {
     		report.setSuccess();
+    		data.push({
+    			link:	resource.url,
+    			result:	'Sucess'
+    		});
 		});
 		var k=0;
 		var link="";
@@ -45,6 +62,7 @@ function NoFound404Plugin(){
 			k++;
 		}
 		casper.run(function(){
+			report.setDataReport(data);
 			report.createReport();
 			instance.api.finishPlugin();
 			

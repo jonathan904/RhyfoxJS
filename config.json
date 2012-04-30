@@ -8,8 +8,8 @@
 		output: true //default: true
 	},
 	paths:	{
-		pluginsPath		:	'C:\\Users\\Jonathand\\My Documents\\Aptana Studio 3 Workspace\\RhyfoxJS\\plugins',
-		includesPath	:	'C:\\Users\\Jonathand\\My Documents\\Aptana Studio 3 Workspace\\RhyfoxJS\\plugins\\includes',
-		casperPath		:	'C:\\Users\\Jonathand\\My Documents\\Aptana Studio 3 Workspace\\RhyfoxJS\\plugins\\includescasperjs'		
+		pluginsPath		:	'C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins',
+		includesPath	:	'C:/Users/JONATHAND/Tesis/RhyfoxJS/includes',
+		casperPath		:	'C:/Users/JONATHAND/Tesis/RhyfoxJS/includes/casperjs'		
 	}
 }

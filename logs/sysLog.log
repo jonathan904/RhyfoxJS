@@ -5569,3 +5569,2516 @@ info:	Sun Apr 21 2012 14:1:8 plugin: NoFound404Plugin state: finish
 info:	Sun Apr 21 2012 14:1:8 C:\Users\Jonathand\My Documents\Aptana Studio 3 Workspace\RhyfoxJS\plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js File included succesfully!
 info:	Sun Apr 21 2012 14:1:8 C:/Users/Jonathand/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
 info:	Sun Apr 21 2012 14:1:8 plugin: TiempoEjecucionPlugin state: finish 
+info:	Tue Apr 30 2012 13:54:24 RhyfoxJS started
+debug:	Tue Apr 30 2012 13:54:24 readConfig function called!
+info:	Tue Apr 30 2012 13:54:24 Loading: C:/Users/JONATHAND/Tesis/RhyfoxJS/src/../config.json
+info:	Tue Apr 30 2012 13:54:24 C:/Users/JONATHAND/Tesis/RhyfoxJS/config.json File included succesfully!
+info:	Tue Apr 30 2012 13:54:24 C:/Users/JONATHAND/Tesis/RhyfoxJS/src/../config.json Loading configuration parameters ...
+info:	Tue Apr 30 2012 13:54:24 C:/Users/Jonathand/My Documents/Aptana Studio 3 Workspace/RhyfoxJS/plugins Plugins path loaded!
+info:	Tue Apr 30 2012 13:54:24 Logger options loaded!
+info:	Tue Apr 30 2012 13:54:24 Log levels loaded!
+info:	Tue Apr 30 2012 13:54:24 Includes path loaded!
+info:	Tue Apr 30 2012 13:54:24 CasperJS path loaded!
+info:	Tue Apr 30 2012 13:54:24 Timeout parameter loaded!
+info:	Tue Apr 30 2012 13:54:24 Configuration parameters loaded!
+info:	Tue Apr 30 2012 13:54:24 List the plugins of directory: C:/Users/Jonathand/My Documents/Aptana Studio 3 Workspace/RhyfoxJS/plugins
+error:	Tue Apr 30 2012 13:54:24 Plugins files no found! C:/Users/Jonathand/My Documents/Aptana Studio 3 Workspace/RhyfoxJS/plugins
+info:	Tue Apr 30 2012 13:54:24 Exits RhyfoxJS 
+info:	Tue Apr 30 2012 14:3:26 RhyfoxJS started
+debug:	Tue Apr 30 2012 14:3:26 readConfig function called!
+info:	Tue Apr 30 2012 14:3:26 Loading: C:/Users/JONATHAND/Tesis/RhyfoxJS/src/../config.json
+info:	Tue Apr 30 2012 14:3:26 C:/Users/JONATHAND/Tesis/RhyfoxJS/config.json File included succesfully!
+info:	Tue Apr 30 2012 14:3:26 C:/Users/JONATHAND/Tesis/RhyfoxJS/src/../config.json Loading configuration parameters ...
+info:	Tue Apr 30 2012 14:3:26 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins Plugins path loaded!
+info:	Tue Apr 30 2012 14:3:26 Logger options loaded!
+info:	Tue Apr 30 2012 14:3:26 Log levels loaded!
+info:	Tue Apr 30 2012 14:3:26 Includes path loaded!
+info:	Tue Apr 30 2012 14:3:26 CasperJS path loaded!
+info:	Tue Apr 30 2012 14:3:26 Timeout parameter loaded!
+info:	Tue Apr 30 2012 14:3:26 Configuration parameters loaded!
+info:	Tue Apr 30 2012 14:3:26 List the plugins of directory: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins
+info:	Tue Apr 30 2012 14:3:26 Scanning directory:C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/
+info:	Tue Apr 30 2012 14:3:26 Directory valid: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/
+info:	Tue Apr 30 2012 14:3:26 Plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/NoFound404Plugin.js
+info:	Tue Apr 30 2012 14:3:26 Config plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/config_NoFound404Plugin.json
+info:	Tue Apr 30 2012 14:3:26 Scanning directory:C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/
+info:	Tue Apr 30 2012 14:3:26 Directory valid: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/
+info:	Tue Apr 30 2012 14:3:26 Plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js
+info:	Tue Apr 30 2012 14:3:26 Config plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json
+info:	Tue Apr 30 2012 14:3:26 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/NoFound404Plugin.js File included succesfully!
+info:	Tue Apr 30 2012 14:3:26 C:/Users/JONATHAND/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Tue Apr 30 2012 14:3:26 Indexing the plugin config
+info:	Tue Apr 30 2012 14:3:27 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/config_NoFound404Plugin.json File included succesfully!
+info:	Tue Apr 30 2012 14:3:27 url: http://frutasyverduraspeter.com/
+info:	Tue Apr 30 2012 14:3:29 Links of http://frutasyverduraspeter.com/:  [
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<img src=\"http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif\" alt=\"Get Adobe Flash player\" width=\"112\" height=\"33\">",
+        "href": {
+            "absolute": "http://www.adobe.com/go/getflashplayer",
+            "relative": "/go/getflashplayer",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.adobe.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": " <img id=\"create-user\" width=\"70\" height=\"70\" src=\"imagenes/registrese.png\">",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Contactenos",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/Contactenos.html",
+            "relative": "/Contactenos.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Términos de uso",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Redes Sociales",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/Contactenos.html",
+            "relative": "/Contactenos.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Desarrollado por Jonathand Serrano y Diego López ",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<img id=\"rss-image\" src=\"imagenes/rssicon.png\">",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<span class=\"ui-icon ui-icon-closethick\">close</span>",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<span class=\"ui-icon ui-icon-closethick\">close</span>",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Google Reader",
+        "href": {
+            "absolute": "http://fusion.google.com/add?feedurl=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/add",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "fusion.google.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Bloglines",
+        "href": {
+            "absolute": "http://www.bloglines.com/sub/http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/sub/http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.bloglines.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Netvibes",
+        "href": {
+            "absolute": "http://www.netvibes.com/subscribe.php?type=rss&url=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/subscribe.php",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.netvibes.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Mi Yahoo!",
+        "href": {
+            "absolute": "http://add.my.yahoo.com/rss?url=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/rss",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "add.my.yahoo.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Windows Live",
+        "href": {
+            "absolute": "http://www.live.com/Default.aspx?add=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/Default.aspx",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.live.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": " Click ",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/AyudaRSS.html",
+            "relative": "/AyudaRSS.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    }
+]
+info:	Tue Apr 30 2012 14:4:19 report function called!
+info:	Tue Apr 30 2012 14:4:19 plugin: NoFound404Plugin finished
+info:	Tue Apr 30 2012 14:4:27 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js File included succesfully!
+info:	Tue Apr 30 2012 14:4:27 C:/Users/JONATHAND/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Tue Apr 30 2012 14:4:27 Indexing the plugin config
+info:	Tue Apr 30 2012 14:4:27 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json File included succesfully!
+info:	Tue Apr 30 2012 14:4:27 Error in the plugin config: ReferenceError: Can't find variable: config_TiempoEjecucionPlugin
+info:	Tue Apr 30 2012 14:4:27 plugin: TiempoEjecucionPlugin finished
+info:	Tue Apr 30 2012 14:4:47 Exits RhyfoxJS 
+info:	Tue Apr 30 2012 14:15:38 RhyfoxJS started
+debug:	Tue Apr 30 2012 14:15:38 readConfig function called!
+info:	Tue Apr 30 2012 14:15:38 Loading: C:/Users/JONATHAND/Tesis/RhyfoxJS/src/../config.json
+info:	Tue Apr 30 2012 14:15:38 C:/Users/JONATHAND/Tesis/RhyfoxJS/config.json File included succesfully!
+info:	Tue Apr 30 2012 14:15:38 C:/Users/JONATHAND/Tesis/RhyfoxJS/src/../config.json Loading configuration parameters ...
+info:	Tue Apr 30 2012 14:15:38 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins Plugins path loaded!
+info:	Tue Apr 30 2012 14:15:38 Logger options loaded!
+info:	Tue Apr 30 2012 14:15:38 Log levels loaded!
+info:	Tue Apr 30 2012 14:15:38 Includes path loaded!
+info:	Tue Apr 30 2012 14:15:38 CasperJS path loaded!
+info:	Tue Apr 30 2012 14:15:38 Timeout parameter loaded!
+info:	Tue Apr 30 2012 14:15:38 Configuration parameters loaded!
+info:	Tue Apr 30 2012 14:15:38 List the plugins of directory: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins
+info:	Tue Apr 30 2012 14:15:38 Scanning directory:C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/
+info:	Tue Apr 30 2012 14:15:38 Directory valid: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/
+info:	Tue Apr 30 2012 14:15:38 Plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/NoFound404Plugin.js
+info:	Tue Apr 30 2012 14:15:38 Config plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/config_NoFound404Plugin.json
+info:	Tue Apr 30 2012 14:15:38 Scanning directory:C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/
+info:	Tue Apr 30 2012 14:15:38 Directory valid: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/
+info:	Tue Apr 30 2012 14:15:38 Plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js
+info:	Tue Apr 30 2012 14:15:38 Config plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json
+info:	Tue Apr 30 2012 14:15:38 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/NoFound404Plugin.js File included succesfully!
+info:	Tue Apr 30 2012 14:15:38 C:/Users/JONATHAND/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Tue Apr 30 2012 14:15:38 Indexing the plugin config
+info:	Tue Apr 30 2012 14:15:38 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/config_NoFound404Plugin.json File included succesfully!
+info:	Tue Apr 30 2012 14:15:38 url: http://frutasyverduraspeter.com/
+info:	Tue Apr 30 2012 14:15:41 Links of http://frutasyverduraspeter.com/:  [
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<img src=\"http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif\" alt=\"Get Adobe Flash player\" width=\"112\" height=\"33\">",
+        "href": {
+            "absolute": "http://www.adobe.com/go/getflashplayer",
+            "relative": "/go/getflashplayer",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.adobe.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": " <img id=\"create-user\" width=\"70\" height=\"70\" src=\"imagenes/registrese.png\">",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Contactenos",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/Contactenos.html",
+            "relative": "/Contactenos.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Términos de uso",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Redes Sociales",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/Contactenos.html",
+            "relative": "/Contactenos.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Desarrollado por Jonathand Serrano y Diego López ",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<img id=\"rss-image\" src=\"imagenes/rssicon.png\">",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<span class=\"ui-icon ui-icon-closethick\">close</span>",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<span class=\"ui-icon ui-icon-closethick\">close</span>",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Google Reader",
+        "href": {
+            "absolute": "http://fusion.google.com/add?feedurl=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/add",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "fusion.google.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Bloglines",
+        "href": {
+            "absolute": "http://www.bloglines.com/sub/http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/sub/http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.bloglines.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Netvibes",
+        "href": {
+            "absolute": "http://www.netvibes.com/subscribe.php?type=rss&url=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/subscribe.php",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.netvibes.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Mi Yahoo!",
+        "href": {
+            "absolute": "http://add.my.yahoo.com/rss?url=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/rss",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "add.my.yahoo.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Windows Live",
+        "href": {
+            "absolute": "http://www.live.com/Default.aspx?add=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/Default.aspx",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.live.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": " Click ",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/AyudaRSS.html",
+            "relative": "/AyudaRSS.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    }
+]
+info:	Tue Apr 30 2012 14:16:11 RhyfoxJS started
+debug:	Tue Apr 30 2012 14:16:11 readConfig function called!
+info:	Tue Apr 30 2012 14:16:11 Loading: C:/Users/JONATHAND/Tesis/RhyfoxJS/src/../config.json
+info:	Tue Apr 30 2012 14:16:11 C:/Users/JONATHAND/Tesis/RhyfoxJS/config.json File included succesfully!
+info:	Tue Apr 30 2012 14:16:11 C:/Users/JONATHAND/Tesis/RhyfoxJS/src/../config.json Loading configuration parameters ...
+info:	Tue Apr 30 2012 14:16:11 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins Plugins path loaded!
+info:	Tue Apr 30 2012 14:16:11 Logger options loaded!
+info:	Tue Apr 30 2012 14:16:11 Log levels loaded!
+info:	Tue Apr 30 2012 14:16:11 Includes path loaded!
+info:	Tue Apr 30 2012 14:16:11 CasperJS path loaded!
+info:	Tue Apr 30 2012 14:16:11 Timeout parameter loaded!
+info:	Tue Apr 30 2012 14:16:11 Configuration parameters loaded!
+info:	Tue Apr 30 2012 14:16:11 List the plugins of directory: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins
+info:	Tue Apr 30 2012 14:16:11 Scanning directory:C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/
+info:	Tue Apr 30 2012 14:16:11 Directory valid: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/
+info:	Tue Apr 30 2012 14:16:11 Plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/NoFound404Plugin.js
+info:	Tue Apr 30 2012 14:16:11 Config plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/config_NoFound404Plugin.json
+info:	Tue Apr 30 2012 14:16:11 Scanning directory:C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/
+info:	Tue Apr 30 2012 14:16:11 Directory valid: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/
+info:	Tue Apr 30 2012 14:16:11 Plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js
+info:	Tue Apr 30 2012 14:16:11 Config plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json
+info:	Tue Apr 30 2012 14:16:11 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/NoFound404Plugin.js File included succesfully!
+info:	Tue Apr 30 2012 14:16:11 C:/Users/JONATHAND/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Tue Apr 30 2012 14:16:11 Indexing the plugin config
+info:	Tue Apr 30 2012 14:16:11 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/config_NoFound404Plugin.json File included succesfully!
+info:	Tue Apr 30 2012 14:16:11 url: http://frutasyverduraspeter.com/
+info:	Tue Apr 30 2012 14:16:14 Links of http://frutasyverduraspeter.com/:  [
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<img src=\"http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif\" alt=\"Get Adobe Flash player\" width=\"112\" height=\"33\">",
+        "href": {
+            "absolute": "http://www.adobe.com/go/getflashplayer",
+            "relative": "/go/getflashplayer",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.adobe.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": " <img id=\"create-user\" width=\"70\" height=\"70\" src=\"imagenes/registrese.png\">",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Contactenos",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/Contactenos.html",
+            "relative": "/Contactenos.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Términos de uso",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Redes Sociales",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/Contactenos.html",
+            "relative": "/Contactenos.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Desarrollado por Jonathand Serrano y Diego López ",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<img id=\"rss-image\" src=\"imagenes/rssicon.png\">",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<span class=\"ui-icon ui-icon-closethick\">close</span>",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<span class=\"ui-icon ui-icon-closethick\">close</span>",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Google Reader",
+        "href": {
+            "absolute": "http://fusion.google.com/add?feedurl=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/add",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "fusion.google.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Bloglines",
+        "href": {
+            "absolute": "http://www.bloglines.com/sub/http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/sub/http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.bloglines.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Netvibes",
+        "href": {
+            "absolute": "http://www.netvibes.com/subscribe.php?type=rss&url=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/subscribe.php",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.netvibes.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Mi Yahoo!",
+        "href": {
+            "absolute": "http://add.my.yahoo.com/rss?url=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/rss",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "add.my.yahoo.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Windows Live",
+        "href": {
+            "absolute": "http://www.live.com/Default.aspx?add=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/Default.aspx",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.live.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": " Click ",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/AyudaRSS.html",
+            "relative": "/AyudaRSS.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    }
+]
+info:	Tue Apr 30 2012 14:18:57 RhyfoxJS started
+debug:	Tue Apr 30 2012 14:18:57 readConfig function called!
+info:	Tue Apr 30 2012 14:18:57 Loading: C:/Users/JONATHAND/Tesis/RhyfoxJS/src/../config.json
+info:	Tue Apr 30 2012 14:18:57 C:/Users/JONATHAND/Tesis/RhyfoxJS/config.json File included succesfully!
+info:	Tue Apr 30 2012 14:18:58 C:/Users/JONATHAND/Tesis/RhyfoxJS/src/../config.json Loading configuration parameters ...
+info:	Tue Apr 30 2012 14:18:58 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins Plugins path loaded!
+info:	Tue Apr 30 2012 14:18:58 Logger options loaded!
+info:	Tue Apr 30 2012 14:18:58 Log levels loaded!
+info:	Tue Apr 30 2012 14:18:58 Includes path loaded!
+info:	Tue Apr 30 2012 14:18:58 CasperJS path loaded!
+info:	Tue Apr 30 2012 14:18:58 Timeout parameter loaded!
+info:	Tue Apr 30 2012 14:18:58 Configuration parameters loaded!
+info:	Tue Apr 30 2012 14:18:58 List the plugins of directory: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins
+info:	Tue Apr 30 2012 14:18:58 Scanning directory:C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/
+info:	Tue Apr 30 2012 14:18:58 Directory valid: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/
+info:	Tue Apr 30 2012 14:18:58 Plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/NoFound404Plugin.js
+info:	Tue Apr 30 2012 14:18:58 Config plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/config_NoFound404Plugin.json
+info:	Tue Apr 30 2012 14:18:58 Scanning directory:C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/
+info:	Tue Apr 30 2012 14:18:58 Directory valid: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/
+info:	Tue Apr 30 2012 14:18:58 Plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js
+info:	Tue Apr 30 2012 14:18:58 Config plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json
+info:	Tue Apr 30 2012 14:18:58 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/NoFound404Plugin.js File included succesfully!
+info:	Tue Apr 30 2012 14:18:58 C:/Users/JONATHAND/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Tue Apr 30 2012 14:18:58 Indexing the plugin config
+info:	Tue Apr 30 2012 14:18:58 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/config_NoFound404Plugin.json File included succesfully!
+info:	Tue Apr 30 2012 14:18:58 url: http://frutasyverduraspeter.com/
+info:	Tue Apr 30 2012 14:19:42 Links of http://frutasyverduraspeter.com/:  [
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<img src=\"http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif\" alt=\"Get Adobe Flash player\" width=\"112\" height=\"33\">",
+        "href": {
+            "absolute": "http://www.adobe.com/go/getflashplayer",
+            "relative": "/go/getflashplayer",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.adobe.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": " <img id=\"create-user\" width=\"70\" height=\"70\" src=\"imagenes/registrese.png\">",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Contactenos",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/Contactenos.html",
+            "relative": "/Contactenos.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Términos de uso",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Redes Sociales",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/Contactenos.html",
+            "relative": "/Contactenos.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Desarrollado por Jonathand Serrano y Diego López ",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<img id=\"rss-image\" src=\"imagenes/rssicon.png\">",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<span class=\"ui-icon ui-icon-closethick\">close</span>",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<span class=\"ui-icon ui-icon-closethick\">close</span>",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Google Reader",
+        "href": {
+            "absolute": "http://fusion.google.com/add?feedurl=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/add",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "fusion.google.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Bloglines",
+        "href": {
+            "absolute": "http://www.bloglines.com/sub/http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/sub/http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.bloglines.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Netvibes",
+        "href": {
+            "absolute": "http://www.netvibes.com/subscribe.php?type=rss&url=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/subscribe.php",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.netvibes.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Mi Yahoo!",
+        "href": {
+            "absolute": "http://add.my.yahoo.com/rss?url=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/rss",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "add.my.yahoo.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Windows Live",
+        "href": {
+            "absolute": "http://www.live.com/Default.aspx?add=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/Default.aspx",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.live.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": " Click ",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/AyudaRSS.html",
+            "relative": "/AyudaRSS.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    }
+]
+info:	Tue Apr 30 2012 14:20:6 RhyfoxJS started
+debug:	Tue Apr 30 2012 14:20:6 readConfig function called!
+info:	Tue Apr 30 2012 14:20:6 Loading: C:/Users/JONATHAND/Tesis/RhyfoxJS/src/../config.json
+info:	Tue Apr 30 2012 14:20:6 C:/Users/JONATHAND/Tesis/RhyfoxJS/config.json File included succesfully!
+info:	Tue Apr 30 2012 14:20:6 C:/Users/JONATHAND/Tesis/RhyfoxJS/src/../config.json Loading configuration parameters ...
+info:	Tue Apr 30 2012 14:20:6 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins Plugins path loaded!
+info:	Tue Apr 30 2012 14:20:6 Logger options loaded!
+info:	Tue Apr 30 2012 14:20:6 Log levels loaded!
+info:	Tue Apr 30 2012 14:20:6 Includes path loaded!
+info:	Tue Apr 30 2012 14:20:6 CasperJS path loaded!
+info:	Tue Apr 30 2012 14:20:6 Timeout parameter loaded!
+info:	Tue Apr 30 2012 14:20:6 Configuration parameters loaded!
+info:	Tue Apr 30 2012 14:20:6 List the plugins of directory: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins
+info:	Tue Apr 30 2012 14:20:6 Scanning directory:C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/
+info:	Tue Apr 30 2012 14:20:6 Directory valid: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/
+info:	Tue Apr 30 2012 14:20:6 Plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/NoFound404Plugin.js
+info:	Tue Apr 30 2012 14:20:6 Config plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/config_NoFound404Plugin.json
+info:	Tue Apr 30 2012 14:20:6 Scanning directory:C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/
+info:	Tue Apr 30 2012 14:20:6 Directory valid: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/
+info:	Tue Apr 30 2012 14:20:6 Plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js
+info:	Tue Apr 30 2012 14:20:6 Config plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json
+info:	Tue Apr 30 2012 14:20:6 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/NoFound404Plugin.js File included succesfully!
+info:	Tue Apr 30 2012 14:20:6 C:/Users/JONATHAND/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Tue Apr 30 2012 14:20:6 Indexing the plugin config
+info:	Tue Apr 30 2012 14:20:6 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/config_NoFound404Plugin.json File included succesfully!
+info:	Tue Apr 30 2012 14:20:6 url: http://frutasyverduraspeter.com/
+info:	Tue Apr 30 2012 14:20:29 Links of http://frutasyverduraspeter.com/:  [
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<img src=\"http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif\" alt=\"Get Adobe Flash player\" width=\"112\" height=\"33\">",
+        "href": {
+            "absolute": "http://www.adobe.com/go/getflashplayer",
+            "relative": "/go/getflashplayer",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.adobe.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": " <img id=\"create-user\" width=\"70\" height=\"70\" src=\"imagenes/registrese.png\">",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Contactenos",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/Contactenos.html",
+            "relative": "/Contactenos.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Términos de uso",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Redes Sociales",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/Contactenos.html",
+            "relative": "/Contactenos.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Desarrollado por Jonathand Serrano y Diego López ",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<img id=\"rss-image\" src=\"imagenes/rssicon.png\">",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<span class=\"ui-icon ui-icon-closethick\">close</span>",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<span class=\"ui-icon ui-icon-closethick\">close</span>",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Google Reader",
+        "href": {
+            "absolute": "http://fusion.google.com/add?feedurl=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/add",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "fusion.google.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Bloglines",
+        "href": {
+            "absolute": "http://www.bloglines.com/sub/http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/sub/http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.bloglines.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Netvibes",
+        "href": {
+            "absolute": "http://www.netvibes.com/subscribe.php?type=rss&url=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/subscribe.php",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.netvibes.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Mi Yahoo!",
+        "href": {
+            "absolute": "http://add.my.yahoo.com/rss?url=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/rss",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "add.my.yahoo.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Windows Live",
+        "href": {
+            "absolute": "http://www.live.com/Default.aspx?add=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/Default.aspx",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.live.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": " Click ",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/AyudaRSS.html",
+            "relative": "/AyudaRSS.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    }
+]
+info:	Tue Apr 30 2012 14:21:11 RhyfoxJS started
+debug:	Tue Apr 30 2012 14:21:11 readConfig function called!
+info:	Tue Apr 30 2012 14:21:11 Loading: C:/Users/JONATHAND/Tesis/RhyfoxJS/src/../config.json
+info:	Tue Apr 30 2012 14:21:11 C:/Users/JONATHAND/Tesis/RhyfoxJS/config.json File included succesfully!
+info:	Tue Apr 30 2012 14:21:11 C:/Users/JONATHAND/Tesis/RhyfoxJS/src/../config.json Loading configuration parameters ...
+info:	Tue Apr 30 2012 14:21:11 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins Plugins path loaded!
+info:	Tue Apr 30 2012 14:21:11 Logger options loaded!
+info:	Tue Apr 30 2012 14:21:11 Log levels loaded!
+info:	Tue Apr 30 2012 14:21:11 Includes path loaded!
+info:	Tue Apr 30 2012 14:21:11 CasperJS path loaded!
+info:	Tue Apr 30 2012 14:21:11 Timeout parameter loaded!
+info:	Tue Apr 30 2012 14:21:11 Configuration parameters loaded!
+info:	Tue Apr 30 2012 14:21:11 List the plugins of directory: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins
+info:	Tue Apr 30 2012 14:21:11 Scanning directory:C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/
+info:	Tue Apr 30 2012 14:21:11 Directory valid: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/
+info:	Tue Apr 30 2012 14:21:11 Plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/NoFound404Plugin.js
+info:	Tue Apr 30 2012 14:21:11 Config plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/config_NoFound404Plugin.json
+info:	Tue Apr 30 2012 14:21:11 Scanning directory:C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/
+info:	Tue Apr 30 2012 14:21:11 Directory valid: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/
+info:	Tue Apr 30 2012 14:21:11 Plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js
+info:	Tue Apr 30 2012 14:21:11 Config plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json
+info:	Tue Apr 30 2012 14:21:11 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/NoFound404Plugin.js File included succesfully!
+info:	Tue Apr 30 2012 14:21:11 C:/Users/JONATHAND/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Tue Apr 30 2012 14:21:11 Indexing the plugin config
+info:	Tue Apr 30 2012 14:21:11 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/config_NoFound404Plugin.json File included succesfully!
+info:	Tue Apr 30 2012 14:21:11 url: http://frutasyverduraspeter.com/
+info:	Tue Apr 30 2012 14:21:14 Links of http://frutasyverduraspeter.com/:  [
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<img src=\"http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif\" alt=\"Get Adobe Flash player\" width=\"112\" height=\"33\">",
+        "href": {
+            "absolute": "http://www.adobe.com/go/getflashplayer",
+            "relative": "/go/getflashplayer",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.adobe.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": " <img id=\"create-user\" width=\"70\" height=\"70\" src=\"imagenes/registrese.png\">",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Contactenos",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/Contactenos.html",
+            "relative": "/Contactenos.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Términos de uso",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Redes Sociales",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/Contactenos.html",
+            "relative": "/Contactenos.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Desarrollado por Jonathand Serrano y Diego López ",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<img id=\"rss-image\" src=\"imagenes/rssicon.png\">",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<span class=\"ui-icon ui-icon-closethick\">close</span>",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<span class=\"ui-icon ui-icon-closethick\">close</span>",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Google Reader",
+        "href": {
+            "absolute": "http://fusion.google.com/add?feedurl=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/add",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "fusion.google.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Bloglines",
+        "href": {
+            "absolute": "http://www.bloglines.com/sub/http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/sub/http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.bloglines.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Netvibes",
+        "href": {
+            "absolute": "http://www.netvibes.com/subscribe.php?type=rss&url=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/subscribe.php",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.netvibes.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Mi Yahoo!",
+        "href": {
+            "absolute": "http://add.my.yahoo.com/rss?url=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/rss",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "add.my.yahoo.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Windows Live",
+        "href": {
+            "absolute": "http://www.live.com/Default.aspx?add=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/Default.aspx",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.live.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": " Click ",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/AyudaRSS.html",
+            "relative": "/AyudaRSS.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    }
+]
+info:	Tue Apr 30 2012 14:22:53 RhyfoxJS started
+debug:	Tue Apr 30 2012 14:22:53 readConfig function called!
+info:	Tue Apr 30 2012 14:22:53 Loading: C:/Users/JONATHAND/Tesis/RhyfoxJS/src/../config.json
+info:	Tue Apr 30 2012 14:22:53 C:/Users/JONATHAND/Tesis/RhyfoxJS/config.json File included succesfully!
+info:	Tue Apr 30 2012 14:22:53 C:/Users/JONATHAND/Tesis/RhyfoxJS/src/../config.json Loading configuration parameters ...
+info:	Tue Apr 30 2012 14:22:53 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins Plugins path loaded!
+info:	Tue Apr 30 2012 14:22:53 Logger options loaded!
+info:	Tue Apr 30 2012 14:22:53 Log levels loaded!
+info:	Tue Apr 30 2012 14:22:53 Includes path loaded!
+info:	Tue Apr 30 2012 14:22:53 CasperJS path loaded!
+info:	Tue Apr 30 2012 14:22:53 Timeout parameter loaded!
+info:	Tue Apr 30 2012 14:22:53 Configuration parameters loaded!
+info:	Tue Apr 30 2012 14:22:53 List the plugins of directory: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins
+info:	Tue Apr 30 2012 14:22:53 Scanning directory:C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/
+info:	Tue Apr 30 2012 14:22:53 Directory valid: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/
+info:	Tue Apr 30 2012 14:22:53 Plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/NoFound404Plugin.js
+info:	Tue Apr 30 2012 14:22:53 Config plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/config_NoFound404Plugin.json
+info:	Tue Apr 30 2012 14:22:53 Scanning directory:C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/
+info:	Tue Apr 30 2012 14:22:53 Directory valid: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/
+info:	Tue Apr 30 2012 14:22:53 Plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js
+info:	Tue Apr 30 2012 14:22:53 Config plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json
+info:	Tue Apr 30 2012 14:22:53 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/NoFound404Plugin.js File included succesfully!
+info:	Tue Apr 30 2012 14:22:53 C:/Users/JONATHAND/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Tue Apr 30 2012 14:22:53 Indexing the plugin config
+info:	Tue Apr 30 2012 14:22:53 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/config_NoFound404Plugin.json File included succesfully!
+info:	Tue Apr 30 2012 14:22:53 url: http://frutasyverduraspeter.com/
+info:	Tue Apr 30 2012 14:22:57 Links of http://frutasyverduraspeter.com/:  [
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<img src=\"http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif\" alt=\"Get Adobe Flash player\" width=\"112\" height=\"33\">",
+        "href": {
+            "absolute": "http://www.adobe.com/go/getflashplayer",
+            "relative": "/go/getflashplayer",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.adobe.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": " <img id=\"create-user\" width=\"70\" height=\"70\" src=\"imagenes/registrese.png\">",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Contactenos",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/Contactenos.html",
+            "relative": "/Contactenos.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Términos de uso",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Redes Sociales",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/Contactenos.html",
+            "relative": "/Contactenos.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Desarrollado por Jonathand Serrano y Diego López ",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<img id=\"rss-image\" src=\"imagenes/rssicon.png\">",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<span class=\"ui-icon ui-icon-closethick\">close</span>",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<span class=\"ui-icon ui-icon-closethick\">close</span>",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Google Reader",
+        "href": {
+            "absolute": "http://fusion.google.com/add?feedurl=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/add",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "fusion.google.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Bloglines",
+        "href": {
+            "absolute": "http://www.bloglines.com/sub/http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/sub/http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.bloglines.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Netvibes",
+        "href": {
+            "absolute": "http://www.netvibes.com/subscribe.php?type=rss&url=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/subscribe.php",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.netvibes.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Mi Yahoo!",
+        "href": {
+            "absolute": "http://add.my.yahoo.com/rss?url=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/rss",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "add.my.yahoo.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Windows Live",
+        "href": {
+            "absolute": "http://www.live.com/Default.aspx?add=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/Default.aspx",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.live.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": " Click ",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/AyudaRSS.html",
+            "relative": "/AyudaRSS.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    }
+]
+info:	Tue Apr 30 2012 14:23:45 report function called!
+info:	Tue Apr 30 2012 14:23:45 plugin: NoFound404Plugin finished
+info:	Tue Apr 30 2012 14:23:54 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js File included succesfully!
+info:	Tue Apr 30 2012 14:23:54 C:/Users/JONATHAND/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Tue Apr 30 2012 14:23:54 Indexing the plugin config
+info:	Tue Apr 30 2012 14:23:54 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json File included succesfully!
+info:	Tue Apr 30 2012 14:23:54 Error in the plugin config: ReferenceError: Can't find variable: config_TiempoEjecucionPlugin
+info:	Tue Apr 30 2012 14:23:54 plugin: TiempoEjecucionPlugin finished
+info:	Tue Apr 30 2012 14:24:14 Exits RhyfoxJS 
+info:	Tue Apr 30 2012 14:25:54 RhyfoxJS started
+debug:	Tue Apr 30 2012 14:25:54 readConfig function called!
+info:	Tue Apr 30 2012 14:25:54 Loading: C:/Users/JONATHAND/Tesis/RhyfoxJS/src/../config.json
+info:	Tue Apr 30 2012 14:25:54 C:/Users/JONATHAND/Tesis/RhyfoxJS/config.json File included succesfully!
+info:	Tue Apr 30 2012 14:25:54 C:/Users/JONATHAND/Tesis/RhyfoxJS/src/../config.json Loading configuration parameters ...
+info:	Tue Apr 30 2012 14:25:54 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins Plugins path loaded!
+info:	Tue Apr 30 2012 14:25:54 Logger options loaded!
+info:	Tue Apr 30 2012 14:25:54 Log levels loaded!
+info:	Tue Apr 30 2012 14:25:54 Includes path loaded!
+info:	Tue Apr 30 2012 14:25:54 CasperJS path loaded!
+info:	Tue Apr 30 2012 14:25:54 Timeout parameter loaded!
+info:	Tue Apr 30 2012 14:25:54 Configuration parameters loaded!
+info:	Tue Apr 30 2012 14:25:54 List the plugins of directory: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins
+info:	Tue Apr 30 2012 14:25:54 Scanning directory:C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/
+info:	Tue Apr 30 2012 14:25:54 Directory valid: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/
+info:	Tue Apr 30 2012 14:25:54 Plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/NoFound404Plugin.js
+info:	Tue Apr 30 2012 14:25:54 Config plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/config_NoFound404Plugin.json
+info:	Tue Apr 30 2012 14:25:54 Scanning directory:C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/
+info:	Tue Apr 30 2012 14:25:54 Directory valid: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/
+info:	Tue Apr 30 2012 14:25:54 Plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js
+info:	Tue Apr 30 2012 14:25:54 Config plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json
+info:	Tue Apr 30 2012 14:25:54 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/NoFound404Plugin.js File included succesfully!
+info:	Tue Apr 30 2012 14:25:54 C:/Users/JONATHAND/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Tue Apr 30 2012 14:25:54 Indexing the plugin config
+info:	Tue Apr 30 2012 14:25:54 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/config_NoFound404Plugin.json File included succesfully!
+info:	Tue Apr 30 2012 14:25:54 url: http://frutasyverduraspeter.com/
+info:	Tue Apr 30 2012 14:25:57 Links of http://frutasyverduraspeter.com/:  [
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<img src=\"http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif\" alt=\"Get Adobe Flash player\" width=\"112\" height=\"33\">",
+        "href": {
+            "absolute": "http://www.adobe.com/go/getflashplayer",
+            "relative": "/go/getflashplayer",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.adobe.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": " <img id=\"create-user\" width=\"70\" height=\"70\" src=\"imagenes/registrese.png\">",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Contactenos",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/Contactenos.html",
+            "relative": "/Contactenos.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Términos de uso",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Redes Sociales",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/Contactenos.html",
+            "relative": "/Contactenos.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Desarrollado por Jonathand Serrano y Diego López ",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<img id=\"rss-image\" src=\"imagenes/rssicon.png\">",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<span class=\"ui-icon ui-icon-closethick\">close</span>",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<span class=\"ui-icon ui-icon-closethick\">close</span>",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Google Reader",
+        "href": {
+            "absolute": "http://fusion.google.com/add?feedurl=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/add",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "fusion.google.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Bloglines",
+        "href": {
+            "absolute": "http://www.bloglines.com/sub/http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/sub/http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.bloglines.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Netvibes",
+        "href": {
+            "absolute": "http://www.netvibes.com/subscribe.php?type=rss&url=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/subscribe.php",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.netvibes.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Mi Yahoo!",
+        "href": {
+            "absolute": "http://add.my.yahoo.com/rss?url=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/rss",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "add.my.yahoo.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Windows Live",
+        "href": {
+            "absolute": "http://www.live.com/Default.aspx?add=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/Default.aspx",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.live.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": " Click ",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/AyudaRSS.html",
+            "relative": "/AyudaRSS.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    }
+]
+info:	Tue Apr 30 2012 14:26:25 RhyfoxJS started
+debug:	Tue Apr 30 2012 14:26:25 readConfig function called!
+info:	Tue Apr 30 2012 14:26:25 Loading: C:/Users/JONATHAND/Tesis/RhyfoxJS/src/../config.json
+info:	Tue Apr 30 2012 14:26:25 C:/Users/JONATHAND/Tesis/RhyfoxJS/config.json File included succesfully!
+info:	Tue Apr 30 2012 14:26:25 C:/Users/JONATHAND/Tesis/RhyfoxJS/src/../config.json Loading configuration parameters ...
+info:	Tue Apr 30 2012 14:26:25 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins Plugins path loaded!
+info:	Tue Apr 30 2012 14:26:25 Logger options loaded!
+info:	Tue Apr 30 2012 14:26:25 Log levels loaded!
+info:	Tue Apr 30 2012 14:26:25 Includes path loaded!
+info:	Tue Apr 30 2012 14:26:25 CasperJS path loaded!
+info:	Tue Apr 30 2012 14:26:25 Timeout parameter loaded!
+info:	Tue Apr 30 2012 14:26:25 Configuration parameters loaded!
+info:	Tue Apr 30 2012 14:26:25 List the plugins of directory: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins
+info:	Tue Apr 30 2012 14:26:25 Scanning directory:C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/
+info:	Tue Apr 30 2012 14:26:25 Directory valid: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/
+info:	Tue Apr 30 2012 14:26:25 Plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/NoFound404Plugin.js
+info:	Tue Apr 30 2012 14:26:25 Config plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/config_NoFound404Plugin.json
+info:	Tue Apr 30 2012 14:26:25 Scanning directory:C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/
+info:	Tue Apr 30 2012 14:26:25 Directory valid: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/
+info:	Tue Apr 30 2012 14:26:25 Plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js
+info:	Tue Apr 30 2012 14:26:25 Config plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json
+info:	Tue Apr 30 2012 14:26:25 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/NoFound404Plugin.js File included succesfully!
+info:	Tue Apr 30 2012 14:26:25 C:/Users/JONATHAND/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Tue Apr 30 2012 14:26:25 Indexing the plugin config
+info:	Tue Apr 30 2012 14:26:25 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/config_NoFound404Plugin.json File included succesfully!
+info:	Tue Apr 30 2012 14:26:25 url: http://frutasyverduraspeter.com/
+info:	Tue Apr 30 2012 14:26:28 Links of http://frutasyverduraspeter.com/:  [
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<img src=\"http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif\" alt=\"Get Adobe Flash player\" width=\"112\" height=\"33\">",
+        "href": {
+            "absolute": "http://www.adobe.com/go/getflashplayer",
+            "relative": "/go/getflashplayer",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.adobe.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": " <img id=\"create-user\" width=\"70\" height=\"70\" src=\"imagenes/registrese.png\">",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Contactenos",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/Contactenos.html",
+            "relative": "/Contactenos.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Términos de uso",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Redes Sociales",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/Contactenos.html",
+            "relative": "/Contactenos.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Desarrollado por Jonathand Serrano y Diego López ",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<img id=\"rss-image\" src=\"imagenes/rssicon.png\">",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<span class=\"ui-icon ui-icon-closethick\">close</span>",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<span class=\"ui-icon ui-icon-closethick\">close</span>",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Google Reader",
+        "href": {
+            "absolute": "http://fusion.google.com/add?feedurl=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/add",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "fusion.google.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Bloglines",
+        "href": {
+            "absolute": "http://www.bloglines.com/sub/http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/sub/http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.bloglines.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Netvibes",
+        "href": {
+            "absolute": "http://www.netvibes.com/subscribe.php?type=rss&url=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/subscribe.php",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.netvibes.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Mi Yahoo!",
+        "href": {
+            "absolute": "http://add.my.yahoo.com/rss?url=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/rss",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "add.my.yahoo.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Windows Live",
+        "href": {
+            "absolute": "http://www.live.com/Default.aspx?add=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/Default.aspx",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.live.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": " Click ",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/AyudaRSS.html",
+            "relative": "/AyudaRSS.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    }
+]
+info:	Tue Apr 30 2012 14:27:15 report function called!
+info:	Tue Apr 30 2012 14:27:15 plugin: NoFound404Plugin finished
+info:	Tue Apr 30 2012 14:27:16 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js File included succesfully!
+info:	Tue Apr 30 2012 14:27:16 C:/Users/JONATHAND/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Tue Apr 30 2012 14:27:16 Indexing the plugin config
+info:	Tue Apr 30 2012 14:27:16 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json File included succesfully!
+info:	Tue Apr 30 2012 14:27:16 Error in the plugin config: ReferenceError: Can't find variable: config_TiempoEjecucionPlugin
+info:	Tue Apr 30 2012 14:27:16 plugin: TiempoEjecucionPlugin finished
+info:	Tue Apr 30 2012 14:27:36 Exits RhyfoxJS 
+info:	Tue Apr 30 2012 14:32:6 RhyfoxJS started
+debug:	Tue Apr 30 2012 14:32:6 readConfig function called!
+info:	Tue Apr 30 2012 14:32:6 Loading: C:/Users/JONATHAND/Tesis/RhyfoxJS/src/../config.json
+info:	Tue Apr 30 2012 14:32:6 C:/Users/JONATHAND/Tesis/RhyfoxJS/config.json File included succesfully!
+info:	Tue Apr 30 2012 14:32:6 C:/Users/JONATHAND/Tesis/RhyfoxJS/src/../config.json Loading configuration parameters ...
+info:	Tue Apr 30 2012 14:32:6 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins Plugins path loaded!
+info:	Tue Apr 30 2012 14:32:6 Logger options loaded!
+info:	Tue Apr 30 2012 14:32:6 Log levels loaded!
+info:	Tue Apr 30 2012 14:32:6 Includes path loaded!
+info:	Tue Apr 30 2012 14:32:6 CasperJS path loaded!
+info:	Tue Apr 30 2012 14:32:6 Timeout parameter loaded!
+info:	Tue Apr 30 2012 14:32:6 Configuration parameters loaded!
+info:	Tue Apr 30 2012 14:32:6 List the plugins of directory: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins
+info:	Tue Apr 30 2012 14:32:6 Scanning directory:C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/
+info:	Tue Apr 30 2012 14:32:6 Directory valid: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/
+info:	Tue Apr 30 2012 14:32:6 Plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/NoFound404Plugin.js
+info:	Tue Apr 30 2012 14:32:6 Config plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/config_NoFound404Plugin.json
+info:	Tue Apr 30 2012 14:32:6 Scanning directory:C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/
+info:	Tue Apr 30 2012 14:32:6 Directory valid: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/
+info:	Tue Apr 30 2012 14:32:6 Plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js
+info:	Tue Apr 30 2012 14:32:6 Config plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json
+info:	Tue Apr 30 2012 14:32:6 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/NoFound404Plugin.js File included succesfully!
+info:	Tue Apr 30 2012 14:32:6 C:/Users/JONATHAND/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Tue Apr 30 2012 14:32:6 Indexing the plugin config
+info:	Tue Apr 30 2012 14:32:6 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/config_NoFound404Plugin.json File included succesfully!
+info:	Tue Apr 30 2012 14:32:6 url: http://frutasyverduraspeter.com/
+info:	Tue Apr 30 2012 14:32:10 Links of http://frutasyverduraspeter.com/:  [
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<img src=\"http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif\" alt=\"Get Adobe Flash player\" width=\"112\" height=\"33\">",
+        "href": {
+            "absolute": "http://www.adobe.com/go/getflashplayer",
+            "relative": "/go/getflashplayer",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.adobe.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": " <img id=\"create-user\" width=\"70\" height=\"70\" src=\"imagenes/registrese.png\">",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Contactenos",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/Contactenos.html",
+            "relative": "/Contactenos.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Términos de uso",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Redes Sociales",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/Contactenos.html",
+            "relative": "/Contactenos.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Desarrollado por Jonathand Serrano y Diego López ",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<img id=\"rss-image\" src=\"imagenes/rssicon.png\">",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<span class=\"ui-icon ui-icon-closethick\">close</span>",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<span class=\"ui-icon ui-icon-closethick\">close</span>",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Google Reader",
+        "href": {
+            "absolute": "http://fusion.google.com/add?feedurl=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/add",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "fusion.google.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Bloglines",
+        "href": {
+            "absolute": "http://www.bloglines.com/sub/http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/sub/http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.bloglines.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Netvibes",
+        "href": {
+            "absolute": "http://www.netvibes.com/subscribe.php?type=rss&url=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/subscribe.php",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.netvibes.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Mi Yahoo!",
+        "href": {
+            "absolute": "http://add.my.yahoo.com/rss?url=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/rss",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "add.my.yahoo.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Windows Live",
+        "href": {
+            "absolute": "http://www.live.com/Default.aspx?add=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/Default.aspx",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.live.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": " Click ",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/AyudaRSS.html",
+            "relative": "/AyudaRSS.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    }
+]
+info:	Tue Apr 30 2012 14:34:24 report function called!
+info:	Tue Apr 30 2012 14:34:24 plugin: NoFound404Plugin finished
+info:	Tue Apr 30 2012 14:34:27 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js File included succesfully!
+info:	Tue Apr 30 2012 14:34:27 C:/Users/JONATHAND/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Tue Apr 30 2012 14:34:27 Indexing the plugin config
+info:	Tue Apr 30 2012 14:34:27 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json File included succesfully!
+info:	Tue Apr 30 2012 14:34:27 Error in the plugin config: ReferenceError: Can't find variable: config_TiempoEjecucionPlugin
+info:	Tue Apr 30 2012 14:34:27 plugin: TiempoEjecucionPlugin finished
+info:	Tue Apr 30 2012 14:34:47 Exits RhyfoxJS 
+info:	Tue Apr 30 2012 14:39:19 RhyfoxJS started
+debug:	Tue Apr 30 2012 14:39:19 readConfig function called!
+info:	Tue Apr 30 2012 14:39:19 Loading: C:/Users/JONATHAND/Tesis/RhyfoxJS/src/../config.json
+info:	Tue Apr 30 2012 14:39:19 C:/Users/JONATHAND/Tesis/RhyfoxJS/config.json File included succesfully!
+info:	Tue Apr 30 2012 14:39:19 C:/Users/JONATHAND/Tesis/RhyfoxJS/src/../config.json Loading configuration parameters ...
+info:	Tue Apr 30 2012 14:39:19 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins Plugins path loaded!
+info:	Tue Apr 30 2012 14:39:19 Logger options loaded!
+info:	Tue Apr 30 2012 14:39:19 Log levels loaded!
+info:	Tue Apr 30 2012 14:39:19 Includes path loaded!
+info:	Tue Apr 30 2012 14:39:19 CasperJS path loaded!
+info:	Tue Apr 30 2012 14:39:19 Timeout parameter loaded!
+info:	Tue Apr 30 2012 14:39:19 Configuration parameters loaded!
+info:	Tue Apr 30 2012 14:39:19 List the plugins of directory: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins
+info:	Tue Apr 30 2012 14:39:19 Scanning directory:C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/
+info:	Tue Apr 30 2012 14:39:19 Directory valid: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/
+info:	Tue Apr 30 2012 14:39:19 Plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/NoFound404Plugin.js
+info:	Tue Apr 30 2012 14:39:19 Config plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/config_NoFound404Plugin.json
+info:	Tue Apr 30 2012 14:39:19 Scanning directory:C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/
+info:	Tue Apr 30 2012 14:39:19 Directory valid: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/
+info:	Tue Apr 30 2012 14:39:19 Plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js
+info:	Tue Apr 30 2012 14:39:19 Config plugin file found!: C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json
+info:	Tue Apr 30 2012 14:39:19 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/NoFound404Plugin.js File included succesfully!
+info:	Tue Apr 30 2012 14:39:19 C:/Users/JONATHAND/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Tue Apr 30 2012 14:39:19 Indexing the plugin config
+info:	Tue Apr 30 2012 14:39:19 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/NoFound404Plugin/config_NoFound404Plugin.json File included succesfully!
+info:	Tue Apr 30 2012 14:39:19 url: http://frutasyverduraspeter.com/
+info:	Tue Apr 30 2012 14:39:24 Links of http://frutasyverduraspeter.com/:  [
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<img src=\"http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif\" alt=\"Get Adobe Flash player\" width=\"112\" height=\"33\">",
+        "href": {
+            "absolute": "http://www.adobe.com/go/getflashplayer",
+            "relative": "/go/getflashplayer",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.adobe.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": " <img id=\"create-user\" width=\"70\" height=\"70\" src=\"imagenes/registrese.png\">",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Contactenos",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/Contactenos.html",
+            "relative": "/Contactenos.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Términos de uso",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Redes Sociales",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/Contactenos.html",
+            "relative": "/Contactenos.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Desarrollado por Jonathand Serrano y Diego López ",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<img id=\"rss-image\" src=\"imagenes/rssicon.png\">",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<span class=\"ui-icon ui-icon-closethick\">close</span>",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "<span class=\"ui-icon ui-icon-closethick\">close</span>",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/#",
+            "relative": "/",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Google Reader",
+        "href": {
+            "absolute": "http://fusion.google.com/add?feedurl=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/add",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "fusion.google.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Bloglines",
+        "href": {
+            "absolute": "http://www.bloglines.com/sub/http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/sub/http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.bloglines.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Netvibes",
+        "href": {
+            "absolute": "http://www.netvibes.com/subscribe.php?type=rss&url=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/subscribe.php",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.netvibes.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Mi Yahoo!",
+        "href": {
+            "absolute": "http://add.my.yahoo.com/rss?url=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/rss",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "add.my.yahoo.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": "Windows Live",
+        "href": {
+            "absolute": "http://www.live.com/Default.aspx?add=http://www.frutasyverduraspeter.com/CanalRss.rss",
+            "relative": "/Default.aspx",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "www.live.com",
+            "query": {},
+            "port": ""
+        }
+    },
+    {
+        "url": "http://frutasyverduraspeter.com/",
+        "text": " Click ",
+        "href": {
+            "absolute": "http://frutasyverduraspeter.com/AyudaRSS.html",
+            "relative": "/AyudaRSS.html",
+            "anchor": "",
+            "protocol": "http",
+            "domine": "frutasyverduraspeter.com",
+            "query": {},
+            "port": ""
+        }
+    }
+]
+info:	Tue Apr 30 2012 14:40:48 report function called!
+info:	Tue Apr 30 2012 14:40:48 plugin: NoFound404Plugin finished
+info:	Tue Apr 30 2012 14:40:50 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/TiempoEjecucionPlugin.js File included succesfully!
+info:	Tue Apr 30 2012 14:40:50 C:/Users/JONATHAND/Tesis/RhyfoxJS/src/bin/PublicAPI.js File included succesfully!
+info:	Tue Apr 30 2012 14:40:50 Indexing the plugin config
+info:	Tue Apr 30 2012 14:40:50 C:/Users/JONATHAND/Tesis/RhyfoxJS/plugins/TiempoEjecucionPlugin/config_TiempoEjecucionPlugin.json File included succesfully!
+info:	Tue Apr 30 2012 14:40:50 Error in the plugin config: ReferenceError: Can't find variable: config_TiempoEjecucionPlugin
+info:	Tue Apr 30 2012 14:40:50 plugin: TiempoEjecucionPlugin finished
+info:	Tue Apr 30 2012 14:41:10 Exits RhyfoxJS 
