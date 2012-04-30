@@ -87,7 +87,7 @@ function PublicAPI(objPlugin,objLogger){
 		            }
 		            return links;
 		        });
-		        instance.requireFile('C:\\Users\\Jonathand\\My Documents\\Aptana Studio 3 Workspace\\RhyfoxJS\\includes\\jsuri1.1.1\\jsuri-1.1.1.js');//include uri
+		        instance.requireFile('C:\\Users\\JONATHAND\\Tesis\\RhyfoxJS\\includes\\jsuri1.1.1\\jsuri-1.1.1.js');//include uri
 		        var k=0,r=[];
 		        for(k in results){
 		        	var linka=results[k].href.absolute;
@@ -153,8 +153,8 @@ function PublicAPI(objPlugin,objLogger){
 			this.fail++;
 		}
 		this.title='Report generate for RhyfoxJS';
-		this.dataReport=function(result){
-			this.data.push(result);
+		this.setDataReport=function(data){
+			this.data=data;
 		}
 		this.setTitle=function(title){
 			this.title=title;
@@ -181,18 +181,10 @@ function PublicAPI(objPlugin,objLogger){
 		      'google.setOnLoadCallback(drawChart);'+
 		      'function drawChart() {'+
 		        'var data = google.visualization.arrayToDataTable(['+
-		        '[\'Task\', \'Hours per Day\'],';
-		        var length=this.data.length-1;
-		        var ext="";
-		        /*var success=0;
-		        var fail=0;
-		        for(i in this.data ){
-		        	if(this.data[i]==1)success++;
-					else fail++;	
-				} */	
-		   html+='[\'Success\', '+this.success+'],';
-		   html+='[\'Fail\', '+this.fail+']';       
-		   html+=']);'+
+		        '[\'Result\', \'Count\'],';
+		   html+='[\'Success\', '+this.success+'],'+
+		   		'[\'Fail\', '+this.fail+']'+
+		   		']);'+
 				'var options = {'+
 					'title: 	\''+this.title+'\','+
 		        'colors:	[\'green\',\'red\']'+
@@ -207,9 +199,12 @@ function PublicAPI(objPlugin,objLogger){
 		  	'<h1 style=\'text-align:center\'>RhyfoxJS Reports</h1><hr>'+
 		    '<div id="chart_div" style="width: 900px; height: 500px;"></div>'+
 		    '<p>Report generate for <a href=\'http://jonathan904.github.com/RhyfoxJS\'><b>RhyfoxJS</b></a>:</p>'+
-		    'Name:		'+this.name+'<br>'+
-		    'Date:		'+timestamp+'<br>'+
-		  '</body></html>';
+		    '<b>Name:</b>		'+this.name+'<br>'+
+		    '<b>Date:</b>		'+timestamp+'<br>';
+		    for(i in this.data){
+		    	html+='<b>Link:</b>	'+this.data[i].link+'...<font color=\''+(this.data[i].result=='Fail'?'red':'green')+'\'>'+this.data[i].result+'</font><br>';
+		    }
+		  html+='</body></html>';
 			
 			file.writeLine(html);
 			file.close();
