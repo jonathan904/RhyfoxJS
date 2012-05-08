@@ -117,6 +117,7 @@ function RhyfoxJS(){
 				eval("var Plugin="+this.plugins[this.indexPlugin].name+";");
 				var newPlugin= new Plugin();
 				newPlugin.api= new PublicAPI(this.plugins[this.indexPlugin],this.logger);
+				newPlugin.api.run();
 			}
 			catch(err){
 				this.logger.insertLog('Error loading Plugin: '+this.plugins[this.indexPlugin].name+' '+err,'info');

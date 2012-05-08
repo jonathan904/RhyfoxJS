@@ -1,4 +1,4 @@
-config_NoFound404Plugin = {
+config_TiempoEjecucionPlugin = {
 	name: 'NoFound404Plugin',
 	Param1: 'param1',
 	Urls: 

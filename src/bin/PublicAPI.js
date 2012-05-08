@@ -9,10 +9,12 @@ function PublicAPI(objPlugin,objLogger){
 	this.objPlugin=objPlugin;
 	this.objLogger=objLogger;
 	this.currentPath=fs.workingDirectory;
-	//phantom.injectJs('C:\\Users\\Jonathand\\My Documents\\Aptana Studio 3 Workspace\\RhyfoxJS\\includes\\jsuri1.1.1\\jsuri-1.1.1.js');//include uri
-	//this.uri= Uri;
-	//var uri = new this.uri('http://user:pass@www.test.com:81/index.html?q=books#fragment');
+	this.responses=[];
+	this.requests=[];
 	instance=this;
+	this.run=function(){
+		this.loadConfig();
+	}
 	
 	this.getCasperJs=function(){
 		this.objLogger.insertLog('getCasperJs function called!','debug');
@@ -34,8 +36,90 @@ function PublicAPI(objPlugin,objLogger){
     		},
     		verbose: true
 		});
-
+		casper.on('load.failed', function(Object) {
+		   instance.objLogger.insertLog('FAIL to load the address:	'+Object.url,'error');		
+		});
+		casper.on('resource.requested', function(request) {
+		   instance.requests[request.id]={
+	       	 	headers	:	request.headers,
+	       	 	method	:	request.method,	
+	       	 	time	:	request.time,
+	       	 	url		:	request.url
+	       };		
+		});
+		casper.on('resource.received', function(received) {
+		   instance.responses[received.id]={
+		   		contentType		:	received.contentType,
+		   		headers			:	received.headers,
+		   		redirectURL		:	received.redirectURL,
+		   		stage			:	received.stage,
+		   		status			:	received.status,
+		   		statusText		:	received.statusText,
+		   		time			:	received.time,
+		   		url				:	received.url,
+		   		bodySize		:	received.bodySize
+	       	 	
+	       };
+	    });
+		casper.on('load.started', function(status) {
+		   instance.responses	=	[];
+		   instance.requests	=	[];
+	    });
+		
 		return casper;
+	}
+	this.getImages=function(){
+		var images=[];
+		for(i in this.responses){
+			if(/^image\/(g3fax|gif|ief|jpeg|tiff)$/.test(this.responses[i].contentType)){
+				images.push({
+					image		:	this.responses[i].url,
+					status		:	this.responses[i].status,
+					id_resource	:	i
+				});
+			}
+		}
+		return images;	
+	}
+	this.getCss=function(){
+		var css=[];
+		for(i in this.responses){
+			if(/^text\/css$/.test(this.responses[i].contentType)){
+				css.push({
+					css			:	this.responses[i].url,
+					status		:	this.responses[i].status,
+					id_resource	:	i
+				});
+			}
+		}
+		return css;	
+	}
+	this.getJavaScripts=function(){
+		var javascripts=[];
+		for(i in this.responses){
+			if(/^text\/javascript$/.test(this.responses[i].contentType)){
+				javascripts.push({
+					css			:	this.responses[i].url,
+					status		:	this.responses[i].status,
+					id_resource	:	i
+				});
+			}
+		}
+		return javascripts;	
+	}
+	this.getHeaders=function(){
+		var headers=[];
+		for(i in this.responses){
+			headers.push(this.responses[i].headers);
+		}
+		return headers;
+	}
+	this.getContentTypes=function(){
+		var contentTypes=[];
+		for(i in this.responses){
+			contentTypes.push(this.responses[i].contentType);
+		}
+		return contentTypes;
 	}
 	this.finishPlugin=function(){
 		this.objLogger.insertLog('finishPlugin function called!','debug');
@@ -87,17 +171,26 @@ function PublicAPI(objPlugin,objLogger){
 		            }
 		            return links;
 		        });
-		        instance.requireFile('C:\\Users\\JONATHAND\\Tesis\\RhyfoxJS\\includes\\jsuri1.1.1\\jsuri-1.1.1.js');//include uri
+		        instance.requireFile(instance.uriPath);//include uri
 		        var k=0,r=[];
 		        for(k in results){
 		        	var linka=results[k].href.absolute;
-		        	if(/^http\:\/\/.*/.test(linka)){}//skip :)
+		        	if(/^http(s?)\:\/\/.*/.test(linka)){}//skip :)
 		        	else{ 
 		        		if(/^\.\.[A-z0-9\_]+\/?.*/.test(linka)|| /^[A-z0-9\_]+\.[A-z0-9]+/.test(linka)|| /^[A-z0-9\_]+\/?.*/.test(linka)){
 		        			linka=url+linka;
 		        		}
-		        		if(linka=='#')linka=url+linka;
+		        		if(/^\/?[A-z0-9\_]+\/?.*/.test(linka)|| /^[A-z0-9\_]+\.[A-z0-9]+/.test(linka)|| /^[A-z0-9\_]+\/?.*/.test(linka)){
+		        			linka=url+linka;
+		        		}
+		        		if(/^\#.*/.test(linka)){
+							linka=url+''+linka;
+						}
+						if(linka=='/'){
+							linka=url;
+						}
 		        	}
+		        	linka=linka.replace(/\s+/g,"%20");
 		        	var uri=new Uri(linka);
 		        	var arrRL={
 		        		url:	url, //URL of  href origin
@@ -109,7 +202,7 @@ function PublicAPI(objPlugin,objLogger){
             						protocol:	uri.protocol(),
             						domine:		uri.host(),
             						query:		uri.query(),
-            						port:		uri.port()
+            						port:		typeof uri.port()=="number"?uri.port():80
 	            				}
 		        	};
 		        	r.push(arrRL);
@@ -120,7 +213,12 @@ function PublicAPI(objPlugin,objLogger){
 		    }
 		});
 	}
-	
+	this.loadConfig=function(){
+		this.configPath=this.currentPath+'/../config.json';
+		this.requireFile(this.configPath);
+		this.uriPath=config.paths.uriPath;
+		this.reportPath=config.paths.reportPath;
+	}
 	this.getUrlResources=function(url,callback){
 		this.objLogger.insertLog('getUrlResources function called!','debug');
 		var page = require('webpage').create();
@@ -146,6 +244,8 @@ function PublicAPI(objPlugin,objLogger){
 		this.data=[];
 		this.success=0;
 		this.fail=0;
+		this.url='';
+		this.adicionalText='';
 		this.setSuccess=function(){
 			this.success++;
 		}
@@ -158,6 +258,12 @@ function PublicAPI(objPlugin,objLogger){
 		}
 		this.setTitle=function(title){
 			this.title=title;
+		}
+		this.setUrl=function(url){
+			this.url=url;
+		}
+		this.setAdicionalText=function(text){
+			this.adicionalText=text+'<br>';
 		}
 		this.createReport=function(){
 			instance.objLogger.insertLog('report function called!','info');
@@ -175,6 +281,7 @@ function PublicAPI(objPlugin,objLogger){
 			fs.touch(reportPath);
 			var file=fs.open(reportPath,'a');
 			var html='<html><head>'+
+			  '<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />'+	
 		      '<script type="text/javascript" src="https://www.google.com/jsapi"></script>'+
 		      '<script type="text/javascript">'+
 		      'google.load("visualization", "1", {packages:["corechart"]});'+
@@ -187,7 +294,8 @@ function PublicAPI(objPlugin,objLogger){
 		   		']);'+
 				'var options = {'+
 					'title: 	\''+this.title+'\','+
-		        'colors:	[\'green\',\'red\']'+
+		        	'colors:	[\'green\',\'red\'],'+
+		        	'is3D:		true'+
 		        '};'+
 		        'var chart = new google.visualization.PieChart(document.getElementById(\'chart_div\'));'+
 		        'chart.draw(data, options);'+
@@ -195,28 +303,37 @@ function PublicAPI(objPlugin,objLogger){
 		    '</script>'+
 		  '</head>'+
 		  '<body>'+
-		  	'<a href=\'http://jonathan904.github.com/RhyfoxJS\'><img src=\'http://i297.photobucket.com/albums/mm213/jonathan52380/rhyfoxjs_icon_trasn.png\' width=\'200\' height=\'150\'></a>'+
+		  	'<a  target=\'_blank\' href=\'http://jonathan904.github.com/RhyfoxJS\'><img src=\'http://i297.photobucket.com/albums/mm213/jonathan52380/rhyfoxjs_icon_trasn.png\' width=\'200\' height=\'150\'></a>'+
 		  	'<h1 style=\'text-align:center\'>RhyfoxJS Reports</h1><hr>'+
 		    '<div id="chart_div" style="width: 900px; height: 500px;"></div>'+
-		    '<p>Report generate for <a href=\'http://jonathan904.github.com/RhyfoxJS\'><b>RhyfoxJS</b></a>:</p>'+
+		    '<p>Report generate for <a target=\'_blank\' href=\'http://jonathan904.github.com/RhyfoxJS\'><b>RhyfoxJS</b></a>:</p>'+
+		    '<b>Url:</b>		'+this.url+'<br>'+
 		    '<b>Name:</b>		'+this.name+'<br>'+
-		    '<b>Date:</b>		'+timestamp+'<br>';
+		    '<b>Date:</b>		'+timestamp+'<br>'+
+		    this.adicionalText+
+		    '<table>'+
+		    '<tr style=\'background-color:#0B610B;color:#ffffff;text-align:center\'>'+
+		    	'<td style=\'width:60%\'><b>Link</b></td>'+
+		    	'<td style=\'width:40%\'><b>Result</b></td>'+
+		    '</tr>';
+		    var par=1;
+		    var color="";
 		    for(i in this.data){
-		    	html+='<b>Link:</b>	'+this.data[i].link+'...<font color=\''+(this.data[i].result=='Fail'?'red':'green')+'\'>'+this.data[i].result+'</font><br>';
+		    	color=par==1?'#088A08':'#848484';
+		    	par=par==1?0:1;
+		    	html+='<tr style=\'background-color:'+color+';color:#ffffff\'>'+
+		    			'<td>'+this.data[i].link+'</td>	'+
+		    			'<td style=\'text-align:center\'><font color=\''+(this.data[i].result=='Fail'?'red':'#ffffff')+'\'>'+this.data[i].result+'</font></td>'+
+		    		  '</tr>';
 		    }
-		  html+='</body></html>';
+		  html+='</table><hr><p><b>RhyfoxJS (<a target=\'_blank\' href=\'https://twitter.com/RhyfoxJS\'><b>@RhyfoxJS</b></a>)</b> is created by <b>Jonathand Alberto Serrano Serrano</b> (<a target=\'_blank\'  href=\'https://twitter.com/Jonathan904\'>@jonathan904</a>) with the direction of <b>Iván Rey</b>. RhyfoxJS is a project of graduation of the systems engineering program.</p>'+
+		  '</body></html>';
 			
 			file.writeLine(html);
 			file.close();
 				
 		}
 		  
-		
-		 
-		
-	}
-	this.reportData=function(result){
-		
 	}
 	this.dump=function(arr,level) {
 		this.objLogger.insertLog('dump function called!','debug');

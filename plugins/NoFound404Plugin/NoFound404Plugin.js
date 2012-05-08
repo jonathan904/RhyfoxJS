@@ -2,17 +2,19 @@ function NoFound404Plugin(){
     var instance = this;
     this.currentPath=fs.workingDirectory;
 	this.run=function(){
-		var url=this.configPlugin.urls[0];
+		instance.api.finishPlugin();
+		/*var url=this.configPlugin.urls[5];
 		//console.log('url: '+url);
 		this.api.getLinks(url,function(links){
-			instance.getBrokenLinks(links);
-		});
+			instance.getBrokenLinks(url,links);
+		});*/
 	
 		
 	}
-	this.getBrokenLinks=function(links){
+	this.getBrokenLinks=function(url,links){
 		var report=new this.api.report('NoFound404Plugin');
 		report.setTitle('Broken Links Report');
+		report.setUrl(url);
 		var j=1;
 		var data=[];
 		var casper=this.api.getCasperJs();
@@ -51,11 +53,13 @@ function NoFound404Plugin(){
 			j++;
 			if(k==0){
 				casper.start(link,function(self) {
-					self.echo(self.getCurrentUrl());  
+					self.echo(self.getCurrentUrl());
+					//console.log('+++++++++++++++++++++++'+JSON.stringify(css, undefined, 4));
 				});
 			}else{
 				casper.thenOpen(link, function(self) {
 					self.echo(self.getCurrentUrl());
+					//console.log('+++++++++++++++++++++++'+JSON.stringify(css, undefined, 4));
 				});
 			}	
 			
