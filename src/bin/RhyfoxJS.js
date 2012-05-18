@@ -110,6 +110,7 @@ function RhyfoxJS(){
 		
 		if(this.indexPlugin<this.plugins.length){ 	
 			this.plugins[this.indexPlugin].state='start';
+			this.logger.insertLog('	------------------------------------Plugin:	'+this.plugins[this.indexPlugin].name+' Run! ------------------------------------','info');
 			var pluginPath=this.plugins[this.indexPlugin].pluginPath;
 			try{
 				this.requireFile(pluginPath);
@@ -146,24 +147,47 @@ function RhyfoxJS(){
 		this.logger.insertLog('readConfig function called!','debug');
 		this.config_path=this.currentPath+'/../config.json';//Config global file
 		var abstConfigPath=fs.absolute(this.config_path);
-		this.logger.insertLog('Loading: '+this.config_path,'info');
-		this.requireFile(abstConfigPath);
-		this.logger.insertLog(this.config_path+' Loading configuration parameters ...','info');
-		this.pluginsPath=config.paths.pluginsPath;
-		this.pluginsPath=this.pluginsPath.replace(/\\/g,'/');
-		this.logger.insertLog(this.pluginsPath+' Plugins path loaded!','info');
-		this.logger.config=config.loggger;
-		this.logger.insertLog('Logger options loaded!','info');
-		this.logger.insertLog('Log levels loaded!','info');
-		this.includesPath=config.paths.includesPath;
-		this.includesPath=this.includesPath.replace(/\\/g,'/');
-		this.logger.insertLog('Includes path loaded!','info');
-		this.casperPath=config.paths.casperPath;
-		this.casperPath=this.casperPath.replace(/\\/g,'/');
-		this.logger.insertLog('CasperJS path loaded!','info');
-		this.timeOut=config.timeout;
-		this.logger.insertLog('Timeout parameter loaded!','info');
-		this.logger.insertLog('Configuration parameters loaded!','info');
+		if(fs.exists(abstConfigPath)){
+			this.logger.insertLog('Loading: '+this.config_path,'info');
+			this.requireFile(abstConfigPath);
+			this.logger.insertLog(this.config_path+' Loading configuration parameters ...','info');
+			this.pluginsPath=config.paths.pluginsPath;
+			this.pluginsPath=this.pluginsPath.replace(/\\/g,'/');
+			this.logger.insertLog(this.pluginsPath+' Plugins path loaded!','info');
+			this.logger.config=config.loggger;
+			this.logger.insertLog('Logger options loaded!','info');
+			this.logger.insertLog('Log levels loaded!','info');
+			this.includesPath=config.paths.includesPath;
+			this.includesPath=this.includesPath.replace(/\\/g,'/');
+			this.logger.insertLog('Includes path loaded!','info');
+			this.casperPath=config.paths.casperPath;
+			this.casperPath=this.casperPath.replace(/\\/g,'/');
+			this.logger.insertLog('CasperJS path loaded!','info');
+			this.timeOut=config.timeout;
+			this.logger.insertLog('Timeout parameter loaded!','info');
+			this.logger.insertLog('Configuration parameters loaded!','info');
+		}else{
+			this.logger.insertLog('Configuration file no found!','warning');
+			this.logger.insertLog('Loading default parameters','info');
+			this.pluginsPath='../plugins';
+			this.pluginsPath=fs.absolute(this.pluginsPath);
+			this.logger.insertLog(this.pluginsPath+' Plugins path loaded!','info');
+			this.logger.config={
+								level: 'info',
+								output: true //default: true
+							};
+			this.logger.insertLog('Logger options loaded!','info');
+			this.logger.insertLog('Log levels loaded!','info');
+			this.includesPath='../includes';
+			this.includesPath=fs.absolute(this.includesPath);
+			this.logger.insertLog(this.includesPath+' Includes path loaded!','info');
+			this.casperPath='../includes/casperjs';
+			this.casperPath=fs.absolute(this.casperPath);
+			this.logger.insertLog(this.casperPath+' CasperJS path loaded!','info');
+			this.timeOut=10000;
+			this.logger.insertLog('Timeout parameter loaded!','info');
+			this.logger.insertLog('Configuration parameters loaded!','info');
+		}
 	}
 	this.exit=function(){//exit the RhyfoxJS.js
 		this.logger.insertLog('pluginExit function called!','debug');

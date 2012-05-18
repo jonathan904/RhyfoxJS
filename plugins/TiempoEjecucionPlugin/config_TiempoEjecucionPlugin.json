@@ -1,6 +1,5 @@
 config_TiempoEjecucionPlugin = {
-	name: 'NoFound404Plugin',
-	Param1: 'param1',
-	Urls: 
-		['http://www.colegioparroquialrincondesuba.edu.co/','www.frutasyverduraspeter.com']
+	name: 'TiempoEjecucionPlugin',
+	urls: 
+		['http://www.colegioparroquialrincondesuba.edu.co','http://www.frutasyverduraspeter.com','http://www.pharmadvisor.com/']
 }

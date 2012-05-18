@@ -10,8 +10,8 @@
 	paths:	{
 		pluginsPath		:	'/home/jonathan904/Documents/Aptana Studio 3 Workspace/RhyfoxJS/plugins',
 		includesPath	:	'/home/jonathan904/Documents/Aptana Studio 3 Workspace/RhyfoxJS/includes',
-		casperPath		:	'/home/jonathan904/Documents/Aptana Studio 3 Workspace/RhyfoxJS/include/includescasperjs',		
-		uriPath			:	'/home/jonathan904/Documents/Aptana Studio 3 Workspace/RhyfoxJS/include/jsuri1.1.1/jsuri-1.1.1.js',		
+		casperPath		:	'/home/jonathan904/Documents/Aptana Studio 3 Workspace/RhyfoxJS/includes/casperjs',		
+		uriPath			:	'/home/jonathan904/Documents/Aptana Studio 3 Workspace/RhyfoxJS/includes/jsuri1.1.1/jsuri-1.1.1.js',		
 		reportPath		:	'/home/jonathan904/Documents/Aptana Studio 3 Workspace/RhyfoxJS/reports'		
 	}
 }

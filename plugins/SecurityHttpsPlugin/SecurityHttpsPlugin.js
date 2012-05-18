@@ -2,9 +2,15 @@ function SecurityHttpsPlugin(){
 	var instance = this;
     this.currentPath=fs.workingDirectory;
 	this.run=function(){
-		var url=this.configPlugin.urls[6];
-		console.log('url:	'+url);
-		this.httpsEvaluate(url);
+		var url=this.configPlugin.urls[2];
+		if(url!="" && /^ht|f?tp[s]?.*/.test(url)){
+			this.api.objLogger.insertLog('URL: '+url,'info');
+			this.httpsEvaluate(url);
+		}else{
+			this.api.objLogger.insertLog(url+' Url invalid!','error');
+			this.api.finishPlugin();
+		}
+		
 	}
 	this.httpsEvaluate=function(url){
 		var casper=this.api.getCasperJs(),resquests=[];
@@ -12,18 +18,20 @@ function SecurityHttpsPlugin(){
 		report.setTitle('Https security plugin');
 		report.setUrl(url);
 		var data=[];
+		report.casper=casper;
 		casper.start(url, function(self) {
+			report.getPageImage(0,0,1500,1000);
 		    resquests=instance.api.requests;
 		    var resourceUrl="";
 		    if(resquests.length>0){
 			    for(i in resquests){
 			    	resourceUrl=resquests[i].url;
 			    	var result=instance.evaluateResource(resourceUrl);
-			    	if(result=="Sucess"){
+			    	if(result=="Success"){
 			    		report.setSuccess();
 						data.push({
 	    					link:	resourceUrl,
-	    					result:	'Sucess'
+	    					result:	'Success'
 	    				});
 			    	}else{
 			    		report.setFail();
@@ -45,7 +53,7 @@ function SecurityHttpsPlugin(){
 		});
 	}
 	this.evaluateResource=function(resourceUrl){
-		if(/^https\:\/\/.*/.test(resourceUrl))return "Sucess";
+		if(/^https\:\/\/.*/.test(resourceUrl))return "Success";
 		else return "Fail";
 	}
 }

@@ -1,5 +1,5 @@
 var config_redirectsPlugin={
 	name			:	'RedirectsPlugin',
 	maxRedirects	:	2,
-	urls			:	['http://www.poligran.edu.co']	
+	urls			:	['http://www.poligran.edu.co','http://www.radioactiva.com']	
 }

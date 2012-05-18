@@ -2,14 +2,20 @@ function redirectsPlugin(){
 	var instance=this;
 	this.currentPath=fs.workingDirectory;
 	this.run=function(){
-		var url=this.configPlugin.urls[0];
-		console.log('url:	'+url);
-		this.evaluateRedirects(url);
+		var url=this.configPlugin.urls[1];
+		if(url!="" && /^ht|f?tp[s]?.*/.test(url)){
+			this.api.objLogger.insertLog('URL: '+url,'info');
+			this.evaluateRedirects(url);
+		}else{
+			this.api.objLogger.insertLog(url+' Url invalid!','error');
+			this.api.finishPlugin();
+		}	
 	}
 	this.evaluateRedirects=function(url){
 		var casper=this.api.getCasperJs(),responses=[],max=instance.configPlugin.maxRedirects,contRedirects=0,report=new this.api.report(this.configPlugin.name),data=[];
 		casper.start(url,function(self){
 			responses=instance.api.responses;
+			report.setUrl(url);
 			for(i in responses){
 				if(responses[i].status=='301' || responses[i].status=='302'){
 					contRedirects++;
@@ -22,7 +28,7 @@ function redirectsPlugin(){
 					report.setSuccess();
 					data.push({
     					link:	responses[i].url+' ('+responses[i].status+')',
-    					result:	'Sucess'
+    					result:	'Success'
     				});
 				}
 			}
