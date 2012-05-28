@@ -1,5 +1,0 @@
-config_TiempoEjecucionPlugin = {
-	name: 'TiempoEjecucionPlugin',
-	urls: 
-		['http://www.colegioparroquialrincondesuba.edu.co','http://www.frutasyverduraspeter.com','http://www.pharmadvisor.com/']
-}

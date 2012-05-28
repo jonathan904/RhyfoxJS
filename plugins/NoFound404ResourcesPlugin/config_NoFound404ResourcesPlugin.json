@@ -1,4 +1,0 @@
-config_NoFound404ResourcesPlugin={
-	urls:	['','https://github.com/errores','http://www.frutasyverduraspeter.com/','http://www.colegioparroquialrincondesuba.edu.co/'],
-	name:	'NoFound404Plugin'
-}
