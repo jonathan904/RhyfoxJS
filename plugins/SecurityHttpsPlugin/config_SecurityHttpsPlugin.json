@@ -1,4 +1,4 @@
-config_SecurityHttpsPlugin = {
+var config_SecurityHttpsPlugin={
 	name: 'SecurityHttpsPlugin',
 	urls: 
 		['https://www.citibank.com.co/COGCB/JPS/portal/Index.do','https://linea.davivienda.com/indice/','https://www.tiendavirtualbbva.com.co/','https://www.cam.es/es/Paginas/inicio.aspx','http://www.colegioparroquialrincondesuba.edu.co/','http://www.frutasyverduraspeter.com','https://www.casillerovirtual4-72.com.co/index.php/productos/ique-es-el-casillero-virtual.html','https://github.com/']

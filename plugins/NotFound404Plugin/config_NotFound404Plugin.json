@@ -1,0 +1,5 @@
+var config_NotFound404Plugin = {
+	name: 'NoFound404Plugin',
+	urls: 
+		['http://frutasyverduraspeter.com','http://www.colegioparroquialrincondesuba.edu.co','http://www.bontcolombia.com/','http://code.google.com/p/phantomjs/wiki/Interface','http://casperjs.org/','https://www.cam.es/es/Paginas/inicio.aspx']
+}

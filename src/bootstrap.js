@@ -13,5 +13,11 @@ phantom.injectJs(mainPath);
 phantom.injectJs(loggerPath);
 var rhyfoxjs = new RhyfoxJS();
 rhyfoxjs.logger=new Logger();
+rhyfoxjs.logger.insertLog("  ____  _            __                _ ____",'info');  
+rhyfoxjs.logger.insertLog(" |  _ \\| |__  _   _ / _| ___ __  __   | / ___|",'info'); 
+rhyfoxjs.logger.insertLog(" | |_) | '_ \\| | | | |_ / _ \\\\ \\/ /_  | \\___ \\",'info'); 
+rhyfoxjs.logger.insertLog(" |  _ <| | | | |_| |  _| (_) |>  <| |_| |___) |",'info');
+rhyfoxjs.logger.insertLog(" |_| \\_\\_| |_|\\__, |_|  \\___//_/\\_\\\\___/|____/",'info'); 
+rhyfoxjs.logger.insertLog("              |___/                             ",'info');
 rhyfoxjs.run();
 

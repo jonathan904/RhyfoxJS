@@ -1,0 +1,48 @@
+var arrayExecution = [
+	{
+	  plugin	:   'NotFound404Plugin',
+	  config	:	{
+						name	: 	'NotFound404Plugin',
+						urls	:	['http://casperjs.org']
+					}
+	  				
+	},
+	{
+	  plugin	:	'NotFound404Plugin',
+	  config	:	{
+						name	: 	'NotFound404Plugin',
+						urls	:	['http://frutasyverduraspeter.com']
+					}
+	},
+	{
+	  plugin	:	'NotFound404ResourcesPlugin',
+	  config	:	{
+						urls:	['http://www.phantomjs.org'],
+						name:	'NotFound404ResourcesPlugin'
+					}
+	},
+	{
+	  plugin	:	'RedirectsPlugin',
+	  config	:	{
+						name:	'RedirectsPlugin.js',
+						maxRedirects	:	2,
+						urls			:	['http://www.radioactiva.com']	
+						
+					}
+	},
+	{
+	  plugin	:	'SecurityHttpsPlugin',
+	  config	:	{
+						urls:	['https://www.tiendavirtualbbva.com.co/'],
+						name:	'SecurityHttpsPlugin'
+					}
+	},
+	{
+	  plugin	:	'LoadTimeResourcesPlugin',
+	  config	:	{
+						urls:	['http://www.colegioparroquialrincondesuba.edu.co'],
+						name:	'LoadTimeResourcesPlugin'
+					}
+	}
+	
+]

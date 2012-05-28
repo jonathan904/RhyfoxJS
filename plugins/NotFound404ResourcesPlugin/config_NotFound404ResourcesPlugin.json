@@ -1,0 +1,4 @@
+var config_NotFound404ResourcesPlugin={
+	urls:	['http://www.phantomjs.org','https://github.com/errores','http://www.frutasyverduraspeter.com/','http://www.colegioparroquialrincondesuba.edu.co/'],
+	name:	'NoFound404Plugin'
+}

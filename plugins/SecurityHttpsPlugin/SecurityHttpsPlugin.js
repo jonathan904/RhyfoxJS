@@ -2,7 +2,7 @@ function SecurityHttpsPlugin(){
 	var instance = this;
     this.currentPath=fs.workingDirectory;
 	this.run=function(){
-		var url=this.configPlugin.urls[2];
+		var url=this.configPlugin.url;
 		if(url!="" && /^ht|f?tp[s]?.*/.test(url)){
 			this.api.objLogger.insertLog('URL: '+url,'info');
 			this.httpsEvaluate(url);

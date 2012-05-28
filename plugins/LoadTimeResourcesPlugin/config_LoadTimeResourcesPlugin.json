@@ -1,0 +1,5 @@
+var config_LoadTimeResourcesPlugin = {
+	name: 'LoadTimeResourcesPlugin',
+	urls: 
+		['http://www.colegioparroquialrincondesuba.edu.co','http://www.frutasyverduraspeter.com','http://www.pharmadvisor.com/']
+}

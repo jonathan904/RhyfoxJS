@@ -1,8 +1,8 @@
-function redirectsPlugin(){
+function RedirectsPlugin(){
 	var instance=this;
 	this.currentPath=fs.workingDirectory;
 	this.run=function(){
-		var url=this.configPlugin.urls[1];
+		var url=this.configPlugin.url;
 		if(url!="" && /^ht|f?tp[s]?.*/.test(url)){
 			this.api.objLogger.insertLog('URL: '+url,'info');
 			this.evaluateRedirects(url);
@@ -21,13 +21,15 @@ function redirectsPlugin(){
 					contRedirects++;
 					report.setFail();
 					data.push({
-    					link:	responses[i].url+' ('+responses[i].status+')',
+    					link:	responses[i].url,
+    					status: responses[i].status,
     					result:	'Fail'
     				});	
 				}else{
 					report.setSuccess();
 					data.push({
-    					link:	responses[i].url+' ('+responses[i].status+')',
+    					link:	responses[i].url,
+    					status: responses[i].status,
     					result:	'Success'
     				});
 				}
