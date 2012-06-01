@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>RhyfoxJS by jonathan904</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/jonathan904/RhyfoxJS">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/jonathan904/RhyfoxJS/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/jonathan904/RhyfoxJS/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>RhyfoxJS</h1>
+          <p>Is a platform that allow integrate plugins written in JavaScript for analyze Web applications. RhyfoxJS is a development project  based on PhantomJS and CasperJS</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/jonathan904">jonathan904</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
+        </div>
+
+        <p><img src="http://i297.photobucket.com/albums/mm213/jonathan52380/rhyfoxjs_icon_trasn.png" alt="Alt RhyfoxJS">(logo by <a href="http://www.iconarchive.com/show/animal-icons-by-martin-berube/fox-icon.html">Martin Berube</a> ) </p>
+
+<h3>What is RhyfoxJS?</h3>
+
+<blockquote>
+<p>RhyfoxJS is a open source platform that allow integrate multiple plugins written in JavaScript for analyze web aplications and  runs without need the Web Browser. RhyfoxJS is a utility based in <a href="http://phantomjs.org/" title="PhantomJS">PhantomJS</a> and <a href="http://casperjs.org/" title="CasperJS">CasperJS</a>. With RhyfoxJs you could  common tasks such as:</p>
+
+<ul>
+<li>  Search Broken Links.</li>
+<li>  Evaluate Time Load Resources. </li>
+<li>  Search Https Security Errors.</li>
+<li>  Analyze redirects resources .</li>
+<li>  Search Broken Resources.</li>
+</ul>
+</blockquote>
+
+<ul>
+<li>Note: <b>RhyfoxJS latest released Version is 1.0.0.</b>
+</li>
+</ul><h3>Get Started</h3>
+
+<p>This example explain how you can create your plugins and include in RhyfoxJS. Get support. Checkout the <a href="https://github.com/jonathan904/RhyfoxJS">code at Github</a>. Follow <a href="https://twitter.com/Jonathan904">@RhyFoxJS</a> on Twitter.</p>
+
+<ol>
+<li>
+<p></p>
+<h4><b>Create Plugin Folder</b></h4>
+Create a folder into plugins folder of RhyfoxJS project.
+
+<div class="highlight">
+<pre>   <span class="nv">$ </span><span class="nb">cd</span> ~/RhyfoxJS/plugins/
+   <span class="nv">$ </span>mkdir /MyPlugin
+   <span class="nv">$ </span><span class="nb">cd</span> /MyPlugin
+</pre>
+</div>
+</li>
+<li>
+<p></p>
+<h4><b>Create Plugin File</b></h4>
+The plugin file name must match the plugin folder name. If your plugin require a config file must match the folder name and add the prefix 'config_' in the beginning of the config file name. This config file must contain a JavaScript Object (JSON), this is an optional file.   
+
+<p><b>MyPlugin.js</b></p>
+
+<div class="highlight">
+<pre><span class="nx">MyPlugin</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">ObjConfigPlugin</span><span class="p">)</span> <span class="p">{</span> <span class="c1">// config JSON </span>
+                  <span class="k">this</span><span class="p">.</span><span class="nx">url</span> <span class="o">=</span> <span class="nx">ObjConfigPlugin</span><span class="p">.</span><span class="nx">url</span><span class="p">;</span>
+                  <span class="k">this</span><span class="p">.</span><span class="nx">run</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+                                <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'Hello World!!'</span><span class="p">);</span>
+                                <span class="k">this</span><span class="p">.</span><span class="nx">api</span><span class="p">.</span><span class="nx">finish</span><span class="p">();</span> <span class="c1">//finish plugin</span>
+                             <span class="p">}</span>
+           <span class="p">}</span>
+</pre>
+</div>
+
+
+<p><b>config_MyPlugin.json</b></p>
+
+<div class="highlight">
+<pre><span class="kd">var</span> <span class="nx">config_MyPlugin</span> <span class="o">=</span> <span class="p">{</span> <span class="c1">// optional file</span>
+                        <span class="nx">name</span><span class="o">:</span> <span class="s1">'NoFound404Plugin'</span><span class="p">,</span>
+                        <span class="nx">urls</span><span class="o">:</span> <span class="p">[</span><span class="s1">'URL_Webpage'</span><span class="p">,</span><span class="s1">'URL_Webpage2'</span><span class="p">]</span>
+                      <span class="p">}</span>
+</pre>
+</div>
+</li>
+<li>
+<p></p>
+<h4><b>Run Plugin</b></h4>
+RhyFoxJS executes the plugins of automatically for analyze any web aplication. For run the plugin run it:  
+
+<div class="highlight">
+<pre><span class="nv">$ </span><span class="nb">cd</span> ../../src/
+<span class="nv">$ </span>phantomjs bootstrap.js
+</pre>
+</div>
+</li>
+</ol><h3>Installation</h3>
+
+<p>Once PhantomJS's installed on your machine, you should obtain something like this:</p>
+
+<div class="highlight">
+<pre><span class="nv">$ </span>phantomjs --version
+1.5.0
+</pre>
+</div>
+
+
+<p>Now just follow these instructions:</p>
+
+<div class="highlight">
+<pre><span class="nv">$ </span>git clone git@github.com:jonathan904/RhyfoxJS.git
+<span class="nv">$ </span><span class="nb">cd </span>RhyfoxJS
+</pre>
+</div>
+
+
+<p>You are now ready to create plugins and integrates with <b>RhyfoxJS!</b></p>
+
+<h3>License</h3>
+
+<p>Copyright (c) 2012 Jonathand Alberto Serrano Serrano</p>
+
+<p>Permission is hereby granted, free of charge, to any
+person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the
+Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice
+shall be included in all copies or substantial portions of
+the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS
+OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+
+<h3>Authors and Contributors</h3>
+
+<p>RhyfoxJS is created by <b>Jonathan Alberto Serrano Serrano</b> (<a href="https://twitter.com/Jonathan904">@jonathan904</a>) with the direction of <b>Iván Rey</b> (<a href="https://twitter.com/#!/ivanmreys">@ivanmreys</a>). RhyfoxJS is a project of graduation of the systems engineering program.</p>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+    
+  </body>
+</html>
